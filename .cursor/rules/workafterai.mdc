@@ -1,0 +1,223 @@
+---
+description: WorkAfterAI product and engineering rules
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# WorkAfterAI Cursor Rules
+
+You are working on WorkAfterAI, a career rebuilding platform for people affected by AI job disruption.
+
+Core positioning:
+- Work changed. You are not finished.
+- From AI job anxiety to a clear next move.
+
+## MVP Scope Only
+
+Build only these MVP screens unless explicitly asked otherwise:
+
+- Landing Page
+- Onboarding Flow
+- AI Job Risk Scanner Result
+- Career Rebuild Plan
+- Basic Dashboard
+
+Do not build unless explicitly asked:
+
+- authentication
+- database
+- payments
+- real AI API calls
+- community system
+- marketplace system
+- proof-of-work profile system
+
+## Tech Stack
+
+Use the existing Next.js project.
+
+Required stack:
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- React components
+- local mock data first
+
+Do not add new libraries unless there is a clear reason.
+
+## Routes
+
+Keep MVP routes limited to:
+
+- `/`
+- `/onboarding`
+- `/scanner`
+- `/rebuild-plan`
+- `/dashboard`
+
+Do not create extra routes unless explicitly requested.
+
+## Design Direction
+
+The UI should feel:
+
+- warm
+- modern
+- premium
+- calm
+- supportive
+- human
+- hopeful
+- AI-native
+- practical
+- clean and spacious
+
+Avoid:
+
+- LinkedIn-like design
+- generic corporate job-board style
+- dark, depressing visuals
+- aggressive red warning-heavy UI
+- cluttered dashboards
+- overly playful toy-like startup visuals
+
+Recommended visual language:
+
+- soft indigo / purple as primary
+- teal / green as supportive growth color
+- warm coral or amber for action and gentle warning
+- white and soft gray backgrounds
+- rounded cards
+- subtle shadows
+- clear information hierarchy
+
+## UX Rules
+
+Every page should answer at least one of these questions:
+
+1. What is my AI job risk?
+2. What should I learn or build next?
+3. What can I do today to move forward?
+
+Every page should reduce anxiety and create action.
+
+The product should transform:
+
+Fear → Clarity → Skill → Proof → Opportunity
+
+Do not shame the user.
+Do not use language that makes the user feel obsolete.
+
+Avoid phrases like:
+
+- your job is doomed
+- AI will replace you
+- you are behind
+- you failed
+
+Prefer phrases like:
+
+- your role is changing
+- these tasks are becoming easier to automate
+- your experience still has value
+- here is your next move
+- small steps count
+
+## Product Copy Rules
+
+Primary headline:
+
+> Work changed. You are not finished.
+
+Primary CTA:
+
+> Check My AI Job Risk
+
+Preferred CTAs:
+
+- See How It Works
+- View My AI Risk Report
+- Start My Rebuild Plan
+- Continue Today’s Rebuild Task
+
+Preferred terms:
+
+- AI Disruption Score
+- AI Job Risk
+- Rebuild Plan
+- Proof-of-Work
+- Pivot Paths
+- Human Strengths
+- Rebuild-Friendly Opportunities
+- Next Skill to Build
+
+Avoid vague CTAs:
+
+- Get Started
+- Learn More
+- Submit
+- Continue, when a more specific action is possible
+
+## Code Rules
+
+Use reusable components.
+
+Recommended structure:
+
+```txt
+app/
+  page.tsx
+  onboarding/
+    page.tsx
+  scanner/
+    page.tsx
+  rebuild-plan/
+    page.tsx
+  dashboard/
+    page.tsx
+
+components/
+  layout/
+  sections/
+  onboarding/
+  scanner/
+  dashboard/
+  rebuild-plan/
+  ui/
+
+data/
+  mock-user.ts
+  mock-scanner.ts
+  mock-plan.ts
+
+types/
+  index.ts
+
+lib/
+  utils.ts
+
+Keep page files clean.
+
+Extract repeated UI into components.
+
+Use mock data from /data.
+
+Use shared types from /types.
+
+Avoid large single-file components.
+
+Before Finishing Any Task
+
+Run these when possible:
+
+npm run lint
+npm run build
+
+Then summarize:
+
+files changed
+components created
+assumptions made
+how to test locally
+known limitations
