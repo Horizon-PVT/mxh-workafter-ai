@@ -203,7 +203,7 @@ export function OnboardingFlow() {
             </aside>
           </div>
 
-          <div className="sticky bottom-0 mt-7 flex flex-col-reverse gap-3 border-t border-slate-100 bg-white/95 pt-5 backdrop-blur sm:flex-row sm:items-center sm:justify-between">
+          <div className="mt-8 flex flex-col-reverse gap-3 border-t border-slate-100 pt-5 sm:flex-row sm:items-center sm:justify-between bg-transparent">
             <button
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-slate-200 bg-white px-6 text-sm font-semibold text-slate-700 transition hover:border-indigo-200 hover:text-indigo-700 disabled:cursor-not-allowed disabled:border-slate-100 disabled:bg-slate-50 disabled:text-slate-400"
               disabled={currentStep === 0}

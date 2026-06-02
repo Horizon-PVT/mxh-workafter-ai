@@ -17,18 +17,18 @@ export function RiskSummaryCard({
 
   return (
     <section className="rounded-lg border border-amber-100 bg-white/90 p-5 shadow-sm">
-      <div className="flex items-start justify-between gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-4">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-amber-700">
             {t("eyebrow")}
           </p>
-          <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">{riskLevel}</h2>
+          <h2 className="mt-2 text-2xl font-semibold tracking-tight text-slate-950">{riskLevel}</h2>
         </div>
         <Link
-          className="text-sm font-semibold text-indigo-700 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="text-sm font-semibold text-indigo-700 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 self-start sm:self-auto"
           href="/scanner"
         >
-          {common("cta.viewRiskReport")}
+          {common("cta.viewRiskReport")} &rarr;
         </Link>
       </div>
       <div className="mt-5 grid gap-3 sm:grid-cols-2">
