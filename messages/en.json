@@ -24,8 +24,8 @@
       "rebuildPlan": "Rebuild Plan"
     },
     "cta": {
-      "checkRisk": "Scan My Role Risk",
-      "seeHow": "See the 30-Day Plan",
+      "checkRisk": "Check My AI Job Risk",
+      "seeHow": "See How It Works",
       "viewRiskReport": "View My AI Risk Report",
       "startRebuildPlan": "Start My Rebuild Plan",
       "goDashboard": "Go to Dashboard",
@@ -68,8 +68,8 @@
   "landing": {
     "hero": {
       "eyebrow": "Free AI job risk scan",
-      "title": "Know your AI job risk. Build your next move.",
-      "subtitle": "WorkAfterAI scans your role, shows which tasks AI can automate, and gives you safer paths plus a 30-day rebuild plan.",
+      "title": "Work changed. You are not finished.",
+      "subtitle": "Understand your AI job risk, rebuild your skills, prove your value, and find your next opportunity in the age of AI.",
       "audience": "Built for workers, freelancers, and career switchers worried their work is changing.",
       "trustPills": ["Free · takes 2 minutes", "No resume required", "No signup"]
     },

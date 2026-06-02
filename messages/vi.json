@@ -24,8 +24,8 @@
       "rebuildPlan": "Kế hoạch xây lại"
     },
     "cta": {
-      "checkRisk": "Qu?t r?i ro vai tr?",
-      "seeHow": "Xem k? ho?ch 30 ng?y",
+      "checkRisk": "Kiểm tra rủi ro AI của tôi",
+      "seeHow": "Xem cách hoạt động",
       "viewRiskReport": "Xem báo cáo AI",
       "startRebuildPlan": "Bắt đầu kế hoạch",
       "goDashboard": "Vào bảng điều khiển",
@@ -67,151 +67,151 @@
   },
   "landing": {
     "hero": {
-      "eyebrow": "Qu?t r?i ro ngh? nghi?p do AI mi?n ph?",
-      "title": "Bi?t r?i ro AI c?a b?n. Ch?n b??c ?i ti?p theo.",
-      "subtitle": "WorkAfterAI qu?t vai tr? c?a b?n, ch? ra vi?c n?o AI c? th? t? ??ng h?a, r?i g?i ? h??ng an to?n h?n v? k? ho?ch 30 ng?y.",
-      "audience": "D?nh cho ng??i ?i l?m, freelancer v? ng??i mu?n ??i h??ng khi c?ng vi?c ?ang thay ??i.",
+      "eyebrow": "Quét rủi ro nghề nghiệp do AI miễn phí",
+      "title": "Công việc đã thay đổi. Nhưng bạn chưa kết thúc.",
+      "subtitle": "Hiểu rủi ro AI trong công việc, xây lại kỹ năng, chứng minh giá trị của bạn và tìm cơ hội tiếp theo trong thời đại AI.",
+      "audience": "Dành cho người đi làm, freelancer và người muốn đổi hướng khi công việc đang thay đổi.",
       "trustPills": [
-        "Mi?n ph? ? kho?ng 2 ph?t",
-        "Kh?ng c?n CV",
-        "Kh?ng c?n ??ng k?"
+        "Miễn phí · khoảng 2 phút",
+        "Không cần CV",
+        "Không cần đăng ký"
       ]
     },
     "problem": {
-      "eyebrow": "V? sao vi?c n?y quan tr?ng",
-      "title": "R?i ro kh?ng n?m ? c? c?ng vi?c. N? n?m trong t?ng ph?n vi?c.",
-      "body": "C? th? kh?ch h?ng ??i nhi?u h?n v?i ng?n s?ch th?p h?n. C? th? c?u tr? l?i h? tr? ?ang d?n ???c t? ??ng h?a. C? th? vi?t, nghi?n c?u v? vi?c h?nh ch?nh ?ang r? h?n. B?n c?n nh?n r? ph?n n?o ?ang b? l?.",
+      "eyebrow": "Vì sao việc này quan trọng",
+      "title": "Rủi ro không nằm ở cả công việc. Nó nằm ở từng phần việc.",
+      "body": "Có thể khách hàng đòi hỏi nhiều hơn với ngân sách thấp hơn. Có thể câu trả lời hỗ trợ đang dần được tự động hóa. Có thể viết, nghiên cứu và việc hành chính đang rẻ hơn. Bạn cần nhìn rõ phần nào đang bị đe dọa.",
       "tasks": [
         {
-          "label": "Vi?t & n?i dung",
-          "description": "B?n nh?p, t?m t?t, b?i ??ng v? brief gi? c? th? t?o nhanh h?n b?ng AI.",
+          "label": "Viết & nội dung",
+          "description": "Bản nháp, tóm tắt, bài đăng và brief giờ có thể tạo nhanh hơn bằng AI.",
           "badge": "WC"
         },
         {
-          "label": "H? tr? & vi?c h?nh ch?nh",
-          "description": "Tr? l?i th??ng g?p, ??t l?ch, ph?n lu?ng v? ghi ch? ?ang ???c c?ng c? x? l?.",
+          "label": "Hỗ trợ & việc hành chính",
+          "description": "Trả lời thường gặp, đặt lịch, phân luồng và ghi chú đang được công cụ xử lý.",
           "badge": "SA"
         },
         {
-          "label": "Nghi?n c?u & v?n h?nh",
-          "description": "So s?nh, b?o c?o, l?m s?ch d? li?u v? ki?m tra quy tr?nh ?ang b?t th? c?ng.",
+          "label": "Nghiên cứu & vận hành",
+          "description": "So sánh, báo cáo, làm sạch dữ liệu và kiểm tra quy trình đang bớt thủ công.",
           "badge": "RO"
         }
       ]
     },
     "who": {
-      "eyebrow": "D?nh cho ai",
-      "title": "N?u th?y gi?ng m?nh, ??y l? n?i ?? b?t ??u.",
+      "eyebrow": "Dành cho ai",
+      "title": "Nếu thấy giống mình, đây là nơi để bắt đầu.",
       "audiences": [
         {
-          "title": "Vai tr? c?a b?n ?ang ch?u ?p l?c AI",
-          "description": "B?n th?y nhi?u vi?c ???c t? ??ng h?a v? mu?n bi?t ph?n n?o c?n gi?.",
+          "title": "Vai trò của bạn đang chịu áp lực AI",
+          "description": "Bạn thấy nhiều việc được tự động hóa và muốn biết phần nào cần giữ.",
           "badge": "01"
         },
         {
-          "title": "B?n v?a m?t vi?c ho?c m?t kh?ch",
-          "description": "B?n c?n h??ng ?i m?i d?a tr?n kinh nghi?m m?nh ?? c?.",
+          "title": "Bạn vừa mất việc hoặc mất khách",
+          "description": "Bạn cần hướng đi mới dựa trên kinh nghiệm mình đã có.",
           "badge": "02"
         },
         {
-          "title": "B?n mu?n ?i tr??c khi b? ?p ph?i ??i",
-          "description": "B?n c?n m?t h??ng an to?n h?n, kh?ng ph?i ?o?n n?n h?c g?.",
+          "title": "Bạn muốn đi trước khi bị ép phải đổi",
+          "description": "Bạn cần một hướng an toàn hơn, không phải đoán nên học gì.",
           "badge": "03"
         },
         {
-          "title": "B?n l?m d?ch v? ho?c freelance",
-          "description": "B?n c?n b?ng ch?ng r?ng c?ng vi?c c?a m?nh v?n ??ng gi? trong th? tr??ng nhi?u AI.",
+          "title": "Bạn làm dịch vụ hoặc freelance",
+          "description": "Bạn cần bằng chứng rằng công việc của mình vẫn đáng giá trong thị trường nhiều AI.",
           "badge": "04"
         },
         {
-          "title": "B?n mu?n s?n s?ng v?i AI",
-          "description": "B?n c?n workflow th?c t?, kh?ng ph?i th?m m?t kh?a h?c m? h?.",
+          "title": "Bạn muốn sẵn sàng với AI",
+          "description": "Bạn cần workflow thực tế, không phải thêm một khóa học mơ hồ.",
           "badge": "05"
         }
       ]
     },
     "how": {
-      "eyebrow": "C?ch ho?t ??ng",
-      "title": "B?n b??c. Kh?ng ?o?n m? s? nghi?p.",
+      "eyebrow": "Cách hoạt động",
+      "title": "Bốn bước. Không đoán mò sự nghiệp.",
       "steps": [
         {
-          "title": "Qu?t vai tr?",
-          "description": "Tr? l?i v?i c?u h?i. Th?y ngay ph?n vi?c ?ang r?i ro.",
-          "badge": "Qu?t"
+          "title": "Quét vai trò",
+          "description": "Trả lời vài câu hỏi. Thấy ngay phần việc đang rủi ro.",
+          "badge": "Quét"
         },
         {
-          "title": "Ch?n h??ng an to?n h?n",
-          "description": "Nh?n c?c h??ng chuy?n ph? h?p v?i kinh nghi?m c?a b?n.",
-          "badge": "H??ng"
+          "title": "Chọn hướng an toàn hơn",
+          "description": "Nhận các hướng chuyển phù hợp với kinh nghiệm của bạn.",
+          "badge": "Hướng"
         },
         {
-          "title": "X?y b?ng ch?ng",
-          "description": "T?o m?u vi?c ch?ng minh k? n?ng s?n s?ng v?i AI.",
-          "badge": "B?ng ch?ng"
+          "title": "Xây bằng chứng",
+          "description": "Tạo mẫu việc chứng minh kỹ năng sẵn sàng với AI.",
+          "badge": "Bằng chứng"
         },
         {
-          "title": "Theo k? ho?ch",
-          "description": "D?ng l? tr?nh 30 ng?y ?? h?nh ??ng ngay h?m nay.",
-          "badge": "K? ho?ch"
+          "title": "Theo kế hoạch",
+          "description": "Dùng lộ trình 30 ngày để hành động ngay hôm nay.",
+          "badge": "Kế hoạch"
         }
       ]
     },
     "features": {
-      "eyebrow": "B?n nh?n ???c g?",
-      "title": "Sau khi qu?t, b?n s? c? g?.",
-      "body": "B?c tranh r?i ro r? h?n, h??ng ?i th?ng minh h?n v? b?ng ch?ng c? th? d?ng ???c.",
+      "eyebrow": "Bạn nhận được gì",
+      "title": "Sau khi quét, bạn sẽ có gì.",
+      "body": "Bức tranh rủi ro rõ hơn, hướng đi thông minh hơn và bằng chứng có thể dùng được.",
       "cards": [
         {
-          "title": "Th?y vai tr? c?a b?n r?i ro ??n ??u",
-          "description": "Nh?n ?i?m s? ??n gi?n d?a tr?n nh?ng vi?c b?n th?t s? l?m.",
+          "title": "Thấy vai trò của bạn rủi ro đến đâu",
+          "description": "Nhận điểm số đơn giản dựa trên những việc bạn thật sự làm.",
           "accent": "indigo",
           "icon": "68"
         },
         {
-          "title": "Bi?t n?n h?c g? ti?p theo",
-          "description": "T?p trung v?o k? n?ng gi?p kinh nghi?m c?a b?n kh? b? thay th? h?n.",
+          "title": "Biết nên học gì tiếp theo",
+          "description": "Tập trung vào kỹ năng giúp kinh nghiệm của bạn khó bị thay thế hơn.",
           "accent": "teal",
           "icon": "30"
         },
         {
-          "title": "Gi? l?i th? con ng??i",
-          "description": "Nh?n ra ph?n ?o?n, th?u c?m v? b?i c?nh m? AI v?n c?n b?n.",
+          "title": "Giữ lợi thế con người",
+          "description": "Nhận ra phán đoán, thấu cảm và ngữ cảnh mà AI vẫn cần bạn.",
           "accent": "amber",
           "icon": "HS"
         },
         {
-          "title": "X?y b?ng ch?ng, kh?ng ch? t? tin",
-          "description": "Bi?n qu? tr?nh h?c th?nh m?u vi?c ng??i kh?c c? th? xem.",
+          "title": "Xây bằng chứng, không chỉ tự tin",
+          "description": "Biến quá trình học thành mẫu việc người khác có thể xem.",
           "accent": "indigo",
           "icon": "PW"
         },
         {
-          "title": "Nh?m ??n c? h?i h?p h?n",
-          "description": "?i v? ph?a nh?ng vai tr? n?i AI l?m n?n t?ng c?a b?n h?u ?ch h?n.",
+          "title": "Nhắm đến cơ hội hợp hơn",
+          "description": "Đi về phía những vai trò nơi AI làm nền tảng của bạn hữu ích hơn.",
           "accent": "teal",
           "icon": "RO"
         }
       ]
     },
     "preview": {
-      "eyebrow": "B?o c?o m?u",
-      "title": "M?t b?o c?o n?i r? b?n n?n l?m g? ti?p theo.",
-      "body": "Th?y ph?n vi?c ?ang r?i ro, ?i?m m?nh con ng??i, h??ng an to?n h?n v? k? n?ng ??u ti?n c?n x?y."
+      "eyebrow": "Báo cáo mẫu",
+      "title": "Một báo cáo nói rõ bạn nên làm gì tiếp theo.",
+      "body": "Thấy phần việc đang rủi ro, điểm mạnh con người, hướng an toàn hơn và kỹ năng đầu tiên cần xây."
     },
     "finalCta": {
-      "eyebrow": "B?t ??u h?m nay",
-      "title": "??ng ?o?n r?i ro AI. H?y qu?t vai tr? v? ch?n b??c ti?p theo.",
-      "body": "Mi?n ph?. Kho?ng 2 ph?t. Kh?ng c?n CV.",
-      "note": "Kh?ng c?n ??ng k?. Kh?ng ?p l?c. Ch? l? ?i?m b?t ??u r? h?n."
+      "eyebrow": "Bắt đầu hôm nay",
+      "title": "Đừng đoán rủi ro AI. Hãy quét vai trò và chọn bước tiếp theo.",
+      "body": "Miễn phí. Khoảng 2 phút. Không cần CV.",
+      "note": "Không cần đăng ký. Không áp lực. Chỉ là điểm bắt đầu rõ hơn."
     }
   },
   "riskPreview": {
     "title": "Báo cáo rủi ro AI",
     "riskLevel": "Đang đổi nhanh",
-    "highRiskTitle": "Vi?c c?n ch? ?",
+    "highRiskTitle": "Việc cần chú ý",
     "pivotTitle": "Hướng chuyển an toàn hơn",
     "nextMoveLabel": "Bước tiếp theo",
-    "nextMove": "B?t ??u v?i workflow kh?ch h?ng m? AI c? th? h? tr?, kh?ng thay th?.",
+    "nextMove": "Bắt đầu với workflow khách hàng mà AI có thể hỗ trợ, không thay thế.",
     "highRiskTasks": [
       "Viết cơ bản",
       "Nhập liệu",
