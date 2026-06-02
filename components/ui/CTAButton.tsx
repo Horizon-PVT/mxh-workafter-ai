@@ -28,11 +28,11 @@ export function CTAButton({
   return (
     <Link
       className={cn(
-        "inline-flex items-center justify-center rounded-full font-semibold transition focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2",
+        "inline-flex items-center justify-center rounded-full font-semibold transition-all duration-300 transform focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 active:scale-[0.97]",
         size === "sm" ? "min-h-10 px-4 text-sm" : "min-h-12 px-6 text-sm sm:text-base",
         variant === "primary"
-          ? "bg-indigo-600 text-white shadow-sm shadow-indigo-200 hover:bg-indigo-700"
-          : "border border-slate-200 bg-white text-slate-800 hover:border-indigo-200 hover:text-indigo-700",
+          ? "bg-indigo-600 text-white shadow-sm shadow-indigo-200 hover:bg-indigo-700 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-indigo-500/10"
+          : "border border-slate-200 bg-white text-slate-800 hover:border-indigo-200 hover:text-indigo-700 hover:-translate-y-0.5 hover:shadow-md",
         className,
       )}
       href={href}

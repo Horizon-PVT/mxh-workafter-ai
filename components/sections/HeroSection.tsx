@@ -49,7 +49,7 @@ export function HeroSection() {
 
         <div className="relative">
           <div className="absolute inset-3 rounded-lg bg-gradient-to-br from-indigo-300/35 via-teal-200/30 to-amber-200/35 blur-xl" />
-          <div className="relative">
+          <div className="relative animate-float">
             <RiskReportPreview premium />
           </div>
         </div>
