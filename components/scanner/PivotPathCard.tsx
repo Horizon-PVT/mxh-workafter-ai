@@ -1,10 +1,13 @@
 import type { PivotPath } from "@/types";
+import { useTranslations } from "next-intl";
 
 type PivotPathCardProps = {
   path: PivotPath;
 };
 
 export function PivotPathCard({ path }: PivotPathCardProps) {
+  const t = useTranslations("scanner");
+
   return (
     <article className="rounded-lg border border-indigo-100 bg-white/90 p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
@@ -18,7 +21,7 @@ export function PivotPathCard({ path }: PivotPathCardProps) {
       </div>
       <div className="mt-4 rounded-lg bg-teal-50 p-4">
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-teal-700">
-          First skill to build
+          {t("pivotFirstSkill")}
         </p>
         <p className="mt-1 text-sm font-semibold leading-6 text-teal-950">{path.firstSkill}</p>
       </div>

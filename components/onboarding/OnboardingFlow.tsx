@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { AppNav } from "@/components/layout/AppNav";
+import { TrackPageView } from "@/components/analytics/TrackPageView";
 import { ChoiceCard } from "@/components/onboarding/ChoiceCard";
 import { OnboardingProgress } from "@/components/onboarding/OnboardingProgress";
 import { RoleFields } from "@/components/onboarding/RoleFields";
@@ -10,51 +11,9 @@ import { SummaryCard } from "@/components/onboarding/SummaryCard";
 import { CTAButton } from "@/components/ui/CTAButton";
 import { cn } from "@/lib/utils";
 import type { OnboardingAnswers } from "@/types";
+import { useTranslations } from "next-intl";
 
 const STORAGE_KEY = "workafterai:onboarding";
-
-const situationOptions = [
-  "I'm worried AI may replace parts of my job",
-  "I recently lost my job or clients",
-  "I want to switch careers",
-  "I want to become AI-ready",
-  "I need small projects or income now",
-];
-
-const taskOptions = [
-  "Writing",
-  "Customer support",
-  "Design",
-  "Admin work",
-  "Data entry",
-  "Research",
-  "Management",
-  "Sales",
-  "Operations",
-  "Video editing",
-  "Social media content",
-  "Data analysis",
-];
-
-const aiSkillOptions = ["Beginner", "Using AI sometimes", "Using AI daily", "Advanced"];
-
-const goalOptions = [
-  "Protect my current role",
-  "Find a new job",
-  "Build freelance income",
-  "Switch careers",
-  "Create a proof-of-work portfolio",
-];
-
-const steps = [
-  { label: "Welcome", eyebrow: "Step 1" },
-  { label: "Situation", eyebrow: "Step 2" },
-  { label: "Role", eyebrow: "Step 3" },
-  { label: "Tasks", eyebrow: "Step 4" },
-  { label: "AI Skill", eyebrow: "Step 5" },
-  { label: "Goal", eyebrow: "Step 6" },
-  { label: "Summary", eyebrow: "Step 7" },
-];
 
 const initialAnswers: OnboardingAnswers = {
   situation: "",
@@ -67,6 +26,14 @@ const initialAnswers: OnboardingAnswers = {
 };
 
 export function OnboardingFlow() {
+  const t = useTranslations("onboarding");
+  const common = useTranslations("common");
+  const situationOptions = t.raw("situation.options") as string[];
+  const taskOptions = t.raw("tasks.options") as string[];
+  const aiSkillOptions = t.raw("aiSkill.options") as string[];
+  const goalOptions = t.raw("goal.options") as string[];
+  const steps = t.raw("steps") as Array<{ label: string; eyebrow: string }>;
+  const focusItems = t.raw("focus.items") as string[];
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<OnboardingAnswers>(initialAnswers);
   const restoredAnswers = useRef(false);
@@ -165,6 +132,7 @@ export function OnboardingFlow() {
 
   return (
     <main className="min-h-screen bg-[linear-gradient(135deg,#fbf7ff_0%,#f6fbf9_50%,#fff8ed_100%)] px-5 py-8 text-slate-950 sm:px-6 lg:px-8">
+      <TrackPageView eventName="onboarding_started" />
       <div className="mx-auto max-w-5xl">
         <AppNav />
 
@@ -182,7 +150,7 @@ export function OnboardingFlow() {
               {currentStep === 0 && <WelcomeStep />}
               {currentStep === 1 && (
                 <ChoiceStep
-                  title="How is AI affecting your work?"
+                  title={t("situation.title")}
                   options={situationOptions}
                   selectedValues={answers.situation ? [answers.situation] : []}
                   onSelect={(value) => updateAnswer("situation", value)}
@@ -196,8 +164,8 @@ export function OnboardingFlow() {
               )}
               {currentStep === 3 && (
                 <ChoiceStep
-                  title="Which tasks are part of your current work?"
-                  description="Choose every task that shows up in your week. This helps shape your risk scan."
+                  title={t("tasks.title")}
+                  description={t("tasks.description")}
                   options={taskOptions}
                   selectedValues={answers.dailyTasks}
                   onSelect={toggleTask}
@@ -207,8 +175,8 @@ export function OnboardingFlow() {
               )}
               {currentStep === 4 && (
                 <ChoiceStep
-                  title="How comfortable are you using AI tools today?"
-                  description="There is no wrong answer. This helps us build a realistic plan."
+                  title={t("aiSkill.title")}
+                  description={t("aiSkill.description")}
                   options={aiSkillOptions}
                   selectedValues={answers.aiSkillLevel ? [answers.aiSkillLevel] : []}
                   onSelect={(value) => updateAnswer("aiSkillLevel", value)}
@@ -216,7 +184,7 @@ export function OnboardingFlow() {
               )}
               {currentStep === 5 && (
                 <ChoiceStep
-                  title="What do you want to achieve next?"
+                  title={t("goal.title")}
                   options={goalOptions}
                   selectedValues={answers.goal ? [answers.goal] : []}
                   onSelect={(value) => updateAnswer("goal", value)}
@@ -226,12 +194,11 @@ export function OnboardingFlow() {
             </div>
 
             <aside className="rounded-lg border border-indigo-100 bg-indigo-50/70 p-5">
-              <p className="text-sm font-semibold text-indigo-800">Your scan will focus on</p>
+              <p className="text-sm font-semibold text-indigo-800">{t("focus.title")}</p>
               <ul className="mt-4 space-y-3 text-sm leading-6 text-indigo-950">
-                <li>AI job risk in your current work</li>
-                <li>Tasks becoming easier to automate</li>
-                <li>Safer pivot paths and next skills</li>
-                <li>A practical 30-day rebuild starting point</li>
+                {focusItems.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
               </ul>
             </aside>
           </div>
@@ -243,11 +210,13 @@ export function OnboardingFlow() {
               onClick={goBack}
               type="button"
             >
-              Back
+              {t("buttons.back")}
             </button>
 
             {isFinalStep ? (
-              <CTAButton href="/scanner">View My AI Risk Report</CTAButton>
+              <CTAButton href="/scanner" analyticsEvent="onboarding_completed">
+                {common("cta.viewRiskReport")}
+              </CTAButton>
             ) : (
               <button
                 className={cn(
@@ -260,7 +229,7 @@ export function OnboardingFlow() {
                 onClick={goNext}
                 type="button"
               >
-                Continue
+                {t("buttons.continue")}
               </button>
             )}
           </div>
@@ -271,14 +240,15 @@ export function OnboardingFlow() {
 }
 
 function WelcomeStep() {
+  const t = useTranslations("onboarding.welcome");
+
   return (
     <div>
       <h1 className="mt-3 max-w-2xl text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
-        Let&apos;s understand where you are right now.
+        {t("title")}
       </h1>
       <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-        Answer a few practical questions so your scan can personalize the next steps around your
-        role, daily tasks, AI comfort level, and rebuild goal.
+        {t("body")}
       </p>
     </div>
   );

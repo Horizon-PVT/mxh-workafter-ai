@@ -1,22 +1,25 @@
 import type { RebuildPlan } from "@/types";
+import { useTranslations } from "next-intl";
 
 type SkillGapCardProps = {
   plan: RebuildPlan;
 };
 
 export function SkillGapCard({ plan }: SkillGapCardProps) {
+  const t = useTranslations("rebuildPlan.skillGap");
+
   return (
     <section className="rounded-lg border border-indigo-100 bg-white/90 p-6 shadow-sm">
       <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
-        Skill Gap
+        {t("eyebrow")}
       </p>
       <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
-        Keep your strengths. Add the missing workflows.
+        {t("title")}
       </h2>
       <p className="mt-4 text-base leading-7 text-slate-600">{plan.skillGapSummary}</p>
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
-        <SkillList title="Current strengths" items={plan.currentStrengths} tone="teal" />
-        <SkillList title="Skills to build next" items={plan.skillsToBuildNext} tone="indigo" />
+        <SkillList title={t("currentStrengths")} items={plan.currentStrengths} tone="teal" />
+        <SkillList title={t("skillsNext")} items={plan.skillsToBuildNext} tone="indigo" />
       </div>
     </section>
   );

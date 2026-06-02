@@ -1,4 +1,5 @@
 import type { RebuildPlanWeek } from "@/types";
+import { useTranslations } from "next-intl";
 
 type WeeklyRoadmapProps = {
   weeks: RebuildPlanWeek[];
@@ -11,15 +12,25 @@ const statusClasses = {
   Upcoming: "bg-slate-100 text-slate-600 ring-slate-200",
 };
 
+const statusLabelKeys = {
+  Done: "done",
+  "In progress": "inProgress",
+  Next: "next",
+  Upcoming: "upcoming",
+} as const;
+
 export function WeeklyRoadmap({ weeks }: WeeklyRoadmapProps) {
+  const t = useTranslations("rebuildPlan.roadmap");
+  const common = useTranslations("common");
+
   return (
     <section className="mt-10">
       <div className="max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
-          Weekly Roadmap
+          {t("eyebrow")}
         </p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
-          Four weeks from clarity to proof.
+          {t("title")}
         </h2>
       </div>
       <div className="mt-6 grid gap-5 lg:grid-cols-4">
@@ -32,7 +43,7 @@ export function WeeklyRoadmap({ weeks }: WeeklyRoadmapProps) {
               {week.week}
             </span>
             <h3 className="mt-4 text-lg font-semibold tracking-tight text-slate-950">
-              Week {week.week}: {week.title}
+              {common("labels.weekWithTitle", { week: week.week, title: week.title })}
             </h3>
             <p className="mt-3 text-sm leading-6 text-slate-600">{week.description}</p>
             <ul className="mt-5 space-y-3">
@@ -42,7 +53,7 @@ export function WeeklyRoadmap({ weeks }: WeeklyRoadmapProps) {
                   <span
                     className={`mt-2 inline-flex rounded-full px-2.5 py-1 text-xs font-semibold ring-1 ${statusClasses[task.status]}`}
                   >
-                    {task.status}
+                    {common(`status.${statusLabelKeys[task.status]}`)}
                   </span>
                 </li>
               ))}

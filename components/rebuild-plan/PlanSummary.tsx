@@ -1,27 +1,30 @@
 import type { RebuildPlan } from "@/types";
+import { useTranslations } from "next-intl";
 
 type PlanSummaryProps = {
   plan: RebuildPlan;
 };
 
 export function PlanSummary({ plan }: PlanSummaryProps) {
+  const t = useTranslations("rebuildPlan.summary");
+  const common = useTranslations("common");
   const summaryItems = [
-    { label: "AI Disruption Score", value: `${plan.currentScore}/100` },
-    { label: "Target Role", value: plan.targetRole },
-    { label: "Next Skill to Build", value: plan.nextSkill },
-    { label: "Progress", value: `${plan.progressPercent}%` },
+    { label: t("cards.score"), value: common("labels.scoreOutOf100", { score: plan.currentScore }) },
+    { label: t("cards.targetRole"), value: plan.targetRole },
+    { label: t("cards.nextSkill"), value: plan.nextSkill },
+    { label: t("cards.progress"), value: `${plan.progressPercent}%` },
   ];
 
   return (
     <section className="rounded-lg border border-white/80 bg-white/90 p-6 shadow-xl shadow-indigo-100/50 sm:p-8">
       <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
-        Career Rebuild Plan
+        {t("eyebrow")}
       </p>
       <h1 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
-        Your 30-Day Career Rebuild Plan
+        {t("title")}
       </h1>
       <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-        Turn your AI risk insight into a practical, step-by-step rebuild path.
+        {t("body")}
       </p>
       <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {summaryItems.map((item) => (

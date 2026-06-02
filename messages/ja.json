@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "title": "WorkAfterAI",
+    "description": "AI時代の不安を、次の一手へ。"
+  },
+  "common": {
+    "brand": "WorkAfterAI",
+    "logoText": "WA",
+    "tagline": "AI時代のキャリア再構築プラットフォーム",
+    "backToHome": "WorkAfterAIへ戻る",
+    "languageAria": "言語を{locale}に切り替える",
+    "languageLabels": {
+      "en": "EN",
+      "vi": "VI",
+      "ja": "JA"
+    },
+    "nav": {
+      "problem": "課題",
+      "who": "対象者",
+      "how": "使い方",
+      "features": "機能",
+      "dashboard": "ダッシュボード",
+      "riskReport": "リスクレポート",
+      "rebuildPlan": "再構築プラン"
+    },
+    "cta": {
+      "checkRisk": "????????",
+      "seeHow": "30???????",
+      "viewRiskReport": "AIレポートを見る",
+      "startRebuildPlan": "プランを始める",
+      "goDashboard": "ダッシュボードへ",
+      "rescan": "役割を再スキャン",
+      "reviewRiskReport": "AIレポートを見直す",
+      "continueTask": "タスクを続ける",
+      "continueTodayTask": "今日のタスクへ",
+      "continueTodayRebuildTask": "今日のタスクへ",
+      "viewRebuildPlan": "プランを見る",
+      "viewPlan": "プランを見る",
+      "viewPath": "道筋を見る"
+    },
+    "status": {
+      "done": "完了",
+      "inProgress": "進行中",
+      "next": "次",
+      "upcoming": "予定",
+      "completed": "完了",
+      "ready": "いつでも開始できます",
+      "easy": "易しい",
+      "medium": "普通"
+    },
+    "labels": {
+      "difficulty": "難易度: {difficulty}",
+      "week": "{week}週目",
+      "weekWithTitle": "{week}週目: {title}",
+      "progressComplete": "{progress}%完了",
+      "scoreOutOf100": "{score}/100",
+      "outOf100": "/100",
+      "notProvided": "未入力"
+    },
+    "banners": {
+      "sampleData": {
+        "title": "サンプルレポートを表示中",
+        "description": "2分間のオンボーディング診断を完了して、実際の職種やタスクに合わせたデータを作成しましょう。",
+        "cta": "診断を始める"
+      }
+    }
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "??AI????????",
+      "title": "AI???????????????",
+      "subtitle": "WorkAfterAI????????????AI??????????????????????30??????????",
+      "audience": "?????????????????????????????????????",
+      "trustPills": [
+        "?? ? ?2?",
+        "?????",
+        "????"
+      ]
+    },
+    "problem": {
+      "eyebrow": "??????",
+      "title": "???????????????????????????",
+      "body": "????????????????????????????????????????????????????????????????????????????",
+      "tasks": [
+        {
+          "label": "????????",
+          "description": "???????????????AI?????????????",
+          "badge": "WC"
+        },
+        {
+          "label": "???????",
+          "description": "???????????????????????????????????",
+          "badge": "SA"
+        },
+        {
+          "label": "??????????",
+          "description": "??????????????????????????????",
+          "badge": "RO"
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "???",
+      "title": "????????????????????",
+      "audiences": [
+        {
+          "title": "???AI?????????",
+          "description": "????????????????????????????",
+          "badge": "01"
+        },
+        {
+          "title": "????????????",
+          "description": "?????????????????????????",
+          "badge": "02"
+        },
+        {
+          "title": "????????????",
+          "description": "???????????????????",
+          "badge": "03"
+        },
+        {
+          "title": "??????????????????",
+          "description": "AI????????????????????",
+          "badge": "04"
+        },
+        {
+          "title": "AI???????????",
+          "description": "?????????????????????????????",
+          "badge": "05"
+        }
+      ]
+    },
+    "how": {
+      "eyebrow": "???",
+      "title": "4?????????????????",
+      "steps": [
+        {
+          "title": "?????",
+          "description": "?????????????????????????",
+          "badge": "??"
+        },
+        {
+          "title": "????????",
+          "description": "??????????????????",
+          "badge": "??"
+        },
+        {
+          "title": "?????",
+          "description": "AI???????????????????",
+          "badge": "??"
+        },
+        {
+          "title": "??????",
+          "description": "30???????????????????",
+          "badge": "??"
+        }
+      ]
+    },
+    "features": {
+      "eyebrow": "??????",
+      "title": "?????????",
+      "body": "??????????????????????????",
+      "cards": [
+        {
+          "title": "?????????????",
+          "description": "???????????????????????????",
+          "accent": "indigo",
+          "icon": "68"
+        },
+        {
+          "title": "????????????",
+          "description": "?????????????????????????",
+          "accent": "teal",
+          "icon": "30"
+        },
+        {
+          "title": "??????????",
+          "description": "?????????????AI????????????????",
+          "accent": "amber",
+          "icon": "HS"
+        },
+        {
+          "title": "???????????",
+          "description": "??????????????????????",
+          "accent": "indigo",
+          "icon": "PW"
+        },
+        {
+          "title": "?????????",
+          "description": "AI??????????????????????",
+          "accent": "teal",
+          "icon": "RO"
+        }
+      ]
+    },
+    "preview": {
+      "eyebrow": "????????",
+      "title": "?????????????????",
+      "body": "???????????????????????????????????????"
+    },
+    "finalCta": {
+      "eyebrow": "???????",
+      "title": "AI??????????????????????????",
+      "body": "??????2????????",
+      "note": "??????????????????????????"
+    }
+  },
+  "riskPreview": {
+    "title": "AI仕事リスクレポート",
+    "riskLevel": "変化が速い",
+    "highRiskTitle": "????????",
+    "pivotTitle": "より安全な転換先",
+    "nextMoveLabel": "次の一手",
+    "nextMove": "AI??????????????AI???????????????????????",
+    "highRiskTasks": [
+      "基本的な文章作成",
+      "データ入力",
+      "定型的な顧客返信"
+    ],
+    "pivotPaths": [
+      "AIコンテンツストラテジスト",
+      "ワークフロー自動化アシスタント",
+      "カスタマーサクセスAIオペレーター"
+    ]
+  },
+  "onboarding": {
+    "storageKey": "workafterai:onboarding",
+    "progress": {
+      "stepOf": "{current}/{total}ステップ"
+    },
+    "steps": [
+      {
+        "label": "開始",
+        "eyebrow": "ステップ1"
+      },
+      {
+        "label": "状況",
+        "eyebrow": "ステップ2"
+      },
+      {
+        "label": "役割",
+        "eyebrow": "ステップ3"
+      },
+      {
+        "label": "タスク",
+        "eyebrow": "ステップ4"
+      },
+      {
+        "label": "AIスキル",
+        "eyebrow": "ステップ5"
+      },
+      {
+        "label": "目標",
+        "eyebrow": "ステップ6"
+      },
+      {
+        "label": "要約",
+        "eyebrow": "ステップ7"
+      }
+    ],
+    "welcome": {
+      "title": "まず、今の状況を整理しましょう。",
+      "body": "短い質問に答えるだけで、役割、日々のタスク、AI活用度、目標に合わせて診断を調整します。"
+    },
+    "situation": {
+      "title": "AIは仕事にどう影響していますか？",
+      "options": [
+        "AIが仕事の一部を置き換えそうで不安",
+        "最近、仕事や顧客を失った",
+        "キャリアを変えたい",
+        "AIに強くなりたい",
+        "今すぐ小さな案件や収入が必要"
+      ]
+    },
+    "role": {
+      "title": "どの役割から再構築しますか？",
+      "body": "応募書類ではありません。実際の仕事に合わせて診断するための情報です。",
+      "fields": {
+        "currentJobTitle": {
+          "label": "現在の職種",
+          "placeholder": "カスタマーサポート担当"
+        },
+        "industry": {
+          "label": "業界",
+          "placeholder": "ソフトウェア、教育、小売..."
+        },
+        "yearsOfExperience": {
+          "label": "経験年数",
+          "placeholder": "5"
+        }
+      }
+    },
+    "tasks": {
+      "title": "現在の仕事に含まれるタスクは？",
+      "description": "週の中で発生するタスクをすべて選んでください。",
+      "options": [
+        "文章作成",
+        "カスタマーサポート",
+        "デザイン",
+        "事務作業",
+        "データ入力",
+        "調査",
+        "マネジメント",
+        "営業",
+        "運用",
+        "動画編集",
+        "SNSコンテンツ",
+        "データ分析"
+      ]
+    },
+    "aiSkill": {
+      "title": "AIツールにはどのくらい慣れていますか？",
+      "description": "正解はありません。現実的なプランにするための質問です。",
+      "options": [
+        "初心者",
+        "ときどき使う",
+        "毎日使う",
+        "上級"
+      ]
+    },
+    "goal": {
+      "title": "次に達成したいことは？",
+      "options": [
+        "今の役割を守りたい",
+        "新しい仕事を探したい",
+        "フリーランス収入を作りたい",
+        "キャリアを変えたい",
+        "Proof-of-Workポートフォリオを作りたい"
+      ]
+    },
+    "focus": {
+      "title": "診断で見ること",
+      "items": [
+        "現在の仕事にあるAIリスク",
+        "自動化されやすいタスク",
+        "安全な転換先と次のスキル",
+        "30日プランの出発点"
+      ]
+    },
+    "summary": {
+      "title": "診断の準備ができました。",
+      "body": "あなたの状況に合わせたAIリスクレポートの出発点を用意しました。",
+      "labels": {
+        "situation": "状況",
+        "role": "役割",
+        "industry": "業界",
+        "experience": "経験",
+        "aiComfort": "AI活用度",
+        "goal": "目標",
+        "dailyTasks": "日々のタスク"
+      }
+    },
+    "buttons": {
+      "back": "戻る",
+      "continue": "続ける"
+    }
+  },
+  "scanner": {
+    "score": {
+      "label": "AI仕事リスクレポート",
+      "title": "AIディスラプションスコア",
+      "scoreAria": "AIディスラプションスコア {score} / 100",
+      "ready": "プラン作成済み",
+      "scoreNote": "中程度のリスクは、役割が変化中であり、早めに動く余地があるという意味です。"
+    },
+    "result": {
+      "disruptionScore": 68,
+      "riskLevel": "中程度のリスク",
+      "supportiveExplanation": "あなたの役割が一夜で消えるわけではありません。ただし、これらのタスクは自動化されやすくなっています。"
+    },
+    "tasksAtRisk": [
+      {
+        "title": "基本的な文章作成",
+        "explanation": "初稿、要約、定型コンテンツは、AIで素早く作れるようになっています。"
+      },
+      {
+        "title": "データ入力",
+        "explanation": "構造化データの抽出、整理、ツール間移動は手作業が減っています。"
+      },
+      {
+        "title": "定型的な顧客返信",
+        "explanation": "よくある質問や定型対応は、テンプレートやAIツールで処理される場面が増えています。"
+      }
+    ],
+    "riskTaskLabel": "高リスクのタスク",
+    "humanStrengthsSection": {
+      "eyebrow": "守るべき人間の強み",
+      "title": "ここが、あなたの差別化になります。",
+      "body": "AIは定型作業を速くします。判断、文脈、共感と組み合わせることで、あなたの価値は高まります。"
+    },
+    "humanStrengths": [
+      {
+        "title": "判断力",
+        "explanation": "状況が曖昧なときに、適切な行動を選ぶ力。"
+      },
+      {
+        "title": "共感",
+        "explanation": "会話の感情、信頼、緊急度を読み取る力。"
+      },
+      {
+        "title": "業務文脈",
+        "explanation": "チーム、顧客、ワークフローで何が重要かを理解していること。"
+      },
+      {
+        "title": "コミュニケーション",
+        "explanation": "意思決定をわかりやすく伝え、相手に合わせて調整する力。"
+      },
+      {
+        "title": "品質を見る目",
+        "explanation": "弱いアウトプットに気づき、出す前に水準を上げる力。"
+      }
+    ],
+    "pivotSection": {
+      "eyebrow": "より安全な転換先",
+      "title": "これまでの経験を土台にできる方向です。"
+    },
+    "pivotPaths": [
+      {
+        "title": "AIコンテンツストラテジスト",
+        "whyItFits": "文章力と伝える力を、AI支援コンテンツの設計に活かせます。",
+        "firstSkill": "ブリーフ、下書き、編集のプロンプトフロー",
+        "difficulty": "普通、3〜5週間"
+      },
+      {
+        "title": "ワークフロー自動化アシスタント",
+        "whyItFits": "繰り返し作業の理解を、手作業の改善に活かせます。",
+        "firstSkill": "ノーコード自動化の基礎",
+        "difficulty": "普通、4〜6週間"
+      },
+      {
+        "title": "カスタマーサクセスAIオペレーター",
+        "whyItFits": "サポート経験、共感、プロダクト理解をAI対応フローに活かせます。",
+        "firstSkill": "AI返信の品質レビュー",
+        "difficulty": "始めやすい、2〜4週間"
+      }
+    ],
+    "pivotFirstSkill": "最初のスキル",
+    "skillsSection": {
+      "eyebrow": "次に伸ばすスキル",
+      "title": "AI時代に強い、実践スキルから始めましょう。"
+    },
+    "skillsToBuild": [
+      {
+        "title": "プロンプトフロー",
+        "description": "作成、編集、振り分け、意思決定支援に使えるプロンプトを整えます。"
+      },
+      {
+        "title": "AI支援リサーチ",
+        "description": "文脈を保ったまま、比較、要約、整理にAIを使います。"
+      },
+      {
+        "title": "自動化の基礎",
+        "description": "タスクがツール間でどう動くか、どこを自動化できるかを学びます。"
+      },
+      {
+        "title": "品質管理",
+        "description": "AI出力の正確さ、トーン、ユーザー影響を確認します。"
+      },
+      {
+        "title": "ポートフォリオ設計",
+        "description": "課題、プロセス、結果が伝わる証拠にまとめます。"
+      }
+    ],
+    "roadmapPreview": {
+      "eyebrow": "30日プランのプレビュー",
+      "title": "リスク理解から、証拠と機会につなげる4週間。"
+    },
+    "cta": {
+      "eyebrow": "次の一手",
+      "title": "このレポートを、30日再構築プランに変えましょう。",
+      "body": "次の行動が明確なうちに、流れを止めずに進みましょう。"
+    }
+  },
+  "rebuildPlan": {
+    "summary": {
+      "eyebrow": "再構築プラン",
+      "title": "30日キャリア再構築プラン",
+      "body": "AIリスクの気づきを、具体的な行動プランに変えます。",
+      "cards": {
+        "score": "AIディスラプションスコア",
+        "targetRole": "目標ロール",
+        "nextSkill": "次のスキル",
+        "progress": "進捗"
+      }
+    },
+    "plan": {
+      "title": "30日キャリア再構築プラン",
+      "currentScore": 68,
+      "targetRole": "カスタマーサクセスAIオペレーター",
+      "nextSkill": "AI支援の顧客対応フロー",
+      "progressPercent": 18,
+      "currentWeek": 1,
+      "completedTasksCount": 2,
+      "nextAction": "現在の役割で、AIが支援できるタスクを5つ書き出す。"
+    },
+    "progress": {
+      "eyebrow": "進捗の概要",
+      "title": "次に役立つ行動へ集中しましょう。",
+      "body": "今日すべてを解決する必要はありません。まずひとつの実践タスクを前に進めましょう。",
+      "overall": "全体の進捗",
+      "currentWeek": "現在の週",
+      "completedTasks": "完了タスク",
+      "nextAction": "次の行動"
+    },
+    "roadmap": {
+      "eyebrow": "週ごとのロードマップ",
+      "title": "明確化から証拠づくりまでの4週間。",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "リスクを理解する",
+          "description": "自動化されやすい仕事と、守るべき人間の強みを整理します。",
+          "tasks": [
+            {
+              "title": "AIディスラプションスコアを確認する",
+              "status": "Done"
+            },
+            {
+              "title": "AIが支援できるタスクを5つ書き出す",
+              "status": "In progress"
+            },
+            {
+              "title": "試す役割の方向性を1つ選ぶ",
+              "status": "Next"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "AI支援フローを学ぶ",
+          "description": "AIをワークフローの相棒として使い、経験をより役立つ形にします。",
+          "tasks": [
+            {
+              "title": "役割をAI支援の3方向に書き換える",
+              "status": "Upcoming"
+            },
+            {
+              "title": "仕事に関係するAIツールを2つ比較する",
+              "status": "Upcoming"
+            },
+            {
+              "title": "再利用できるプロンプトフローを1つ作る",
+              "status": "Upcoming"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "title": "Proof-of-Workを作る",
+          "description": "学びを、実際の課題を解く見える成果物に変えます。",
+          "tasks": [
+            {
+              "title": "Proof-of-Workサンプルを1つ作る",
+              "status": "Upcoming"
+            },
+            {
+              "title": "Before、プロセス、結果を記録する",
+              "status": "Upcoming"
+            },
+            {
+              "title": "信頼できる人に意見をもらう",
+              "status": "Upcoming"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "再構築に向いた機会へ進む",
+          "description": "見せ方を整え、AIスキルが活きる役割や案件を狙います。",
+          "tasks": [
+            {
+              "title": "目標ロール向けに見出しを更新する",
+              "status": "Upcoming"
+            },
+            {
+              "title": "ポートフォリオ用ケーススタディを設計する",
+              "status": "Upcoming"
+            },
+            {
+              "title": "再構築に向いた機会を5つ見つける",
+              "status": "Upcoming"
+            }
+          ]
+        }
+      ]
+    },
+    "dailyTasks": {
+      "eyebrow": "日々のタスク",
+      "title": "小さな行動が、プランを現実にします。",
+      "items": [
+        {
+          "title": "現在の役割で、AIが支援できるタスクを5つ書き出す",
+          "estimatedTime": "20分",
+          "difficulty": "Easy",
+          "status": "In progress"
+        },
+        {
+          "title": "現在の役割をAI支援の3方向に書き換える",
+          "estimatedTime": "30分",
+          "difficulty": "Medium",
+          "status": "Next"
+        },
+        {
+          "title": "仕事に関係するAIツールを2つ比較する",
+          "estimatedTime": "25分",
+          "difficulty": "Easy",
+          "status": "Upcoming"
+        },
+        {
+          "title": "Proof-of-Workサンプルを1つ作る",
+          "estimatedTime": "90分",
+          "difficulty": "Medium",
+          "status": "Upcoming"
+        },
+        {
+          "title": "ポートフォリオ用ケーススタディを設計する",
+          "estimatedTime": "35分",
+          "difficulty": "Medium",
+          "status": "Upcoming"
+        },
+        {
+          "title": "目標ロール向けに見出しを更新する",
+          "estimatedTime": "15分",
+          "difficulty": "Easy",
+          "status": "Upcoming"
+        }
+      ]
+    },
+    "skillGap": {
+      "eyebrow": "スキルギャップ",
+      "title": "強みは残す。不足分を足す。",
+      "summary": "顧客理解と伝える力はすでにあります。次は、それをAI支援フローとProof-of-Workに変えることです。",
+      "currentStrengths": "現在の強み",
+      "skillsNext": "次に伸ばすスキル",
+      "currentStrengthItems": [
+        "顧客への共感",
+        "明確なコミュニケーション",
+        "現場のサポート文脈"
+      ],
+      "skillsNextItems": [
+        "プロンプトフロー",
+        "AI品質レビュー",
+        "シンプルな自動化",
+        "ポートフォリオ設計"
+      ]
+    },
+    "proof": {
+      "eyebrow": "Proof-of-Work",
+      "title": "自信だけでなく、証拠を作る。",
+      "body": "プランの終わりには、AIと実践的に働けることを示す小さな証拠を持てます。",
+      "outputLabel": "成果物 {index}",
+      "goals": [
+        "小さなAI支援フローを1つ",
+        "Proof-of-Workサンプルを1つ",
+        "ポートフォリオストーリー / ケーススタディを1つ"
+      ]
+    },
+    "encouragement": {
+      "eyebrow": "人間らしく進める",
+      "messages": [
+        "今週すべてを解決しなくて大丈夫です。",
+        "小さな証拠は、曖昧な意気込みより強い。",
+        "次の一手は、始められる程度に明確なら十分です。"
+      ]
+    },
+    "cta": {
+      "eyebrow": "再構築を続ける",
+      "title": "次のタスクは、もう始められます。",
+      "body": "実践的に進めましょう。完了したひとつのタスクが、次の勢いを作ります。"
+    }
+  },
+  "dashboard": {
+    "user": {
+      "firstName": "Maya",
+      "currentRole": "カスタマーサポート担当",
+      "experienceLevel": "中堅",
+      "aiSkillLevel": "ときどき使う",
+      "primaryGoal": "今の役割を守りたい"
+    },
+    "header": {
+      "eyebrow": "ダッシュボード",
+      "title": "おかえりなさい。次の一手は明確です。",
+      "body": "AIリスク、再構築の進捗、次にやるべき行動を確認しましょう。"
+    },
+    "summary": {
+      "score": "AIディスラプションスコア",
+      "nextSkill": "次のスキル",
+      "bestOpportunity": "最適な機会",
+      "progress": "30日プラン進捗",
+      "nextSkillValue": "AI支援の顧客対応フロー",
+      "bestOpportunityValue": "カスタマーサクセスAIオペレーター"
+    },
+    "todayTask": {
+      "eyebrow": "今日のタスク",
+      "body": "まずは具体的なリストから。不安を、評価して改善できる作業に変えます。"
+    },
+    "progress": {
+      "eyebrow": "30日再構築の進捗",
+      "currentWeek": "現在の週",
+      "completedTasks": "完了タスク",
+      "nextMilestone": "次の節目",
+      "nextMilestoneValue": "1週目のリスク整理を完了"
+    },
+    "risk": {
+      "eyebrow": "AIリスクの要約",
+      "topTask": "最も高リスクのタスク",
+      "strongestStrength": "最も強い人間の強み"
+    },
+    "actions": {
+      "eyebrow": "おすすめの次の行動",
+      "items": [
+        {
+          "title": "今日のタスクを続ける",
+          "description": "次のステップが明確なうちに、現在のタスクを進めます。",
+          "href": "/rebuild-plan"
+        },
+        {
+          "title": "Proof-of-Workを1つ作る",
+          "description": "AI支援フローを、見せられる証拠に変えます。",
+          "href": "/rebuild-plan"
+        },
+        {
+          "title": "AIレポートを見直す",
+          "description": "プランを形づくるタスクと強みを確認します。",
+          "href": "/scanner"
+        }
+      ]
+    },
+    "opportunities": {
+      "eyebrow": "最も近い機会",
+      "title": "視野に入れておきたい再構築の道筋。",
+      "badge": "再構築に向いた機会",
+      "firstSkill": "最初のスキル",
+      "items": [
+        {
+          "title": "カスタマーサクセスAIオペレーター",
+          "matchReason": "サポート経験、伝える力、次に伸ばすAIフローの相性が良い方向です。",
+          "firstSkillRequired": "AI返信の品質レビュー"
+        },
+        {
+          "title": "ワークフロー自動化アシスタント",
+          "matchReason": "繰り返し作業と手作業の詰まりを知っている強みを活かせます。",
+          "firstSkillRequired": "ノーコード自動化の基礎"
+        }
+      ]
+    },
+    "profile": {
+      "eyebrow": "Proof-of-Workプロフィール",
+      "percent": 35,
+      "title": "プロフィール完成度: {percent}%",
+      "suggestedNext": "次のおすすめ",
+      "nextStep": "Proof-of-Workを1つ追加"
+    },
+    "cta": {
+      "eyebrow": "前へ進む",
+      "title": "小さな証拠は、曖昧な意気込みより強い。",
+      "body": "今日は、証拠につながるタスクを進めましょう。"
+    }
+  }
+}

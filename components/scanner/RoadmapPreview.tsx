@@ -1,18 +1,22 @@
 import type { RebuildPlanWeek } from "@/types";
+import { useTranslations } from "next-intl";
 
 type RoadmapPreviewProps = {
   weeks: RebuildPlanWeek[];
 };
 
 export function RoadmapPreview({ weeks }: RoadmapPreviewProps) {
+  const t = useTranslations("scanner.roadmapPreview");
+  const common = useTranslations("common");
+
   return (
     <section className="mt-10 rounded-lg border border-indigo-100 bg-white/90 p-6 shadow-sm sm:p-8">
       <div className="max-w-3xl">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
-          30-Day Rebuild Plan Preview
+          {t("eyebrow")}
         </p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
-          Four weeks from risk clarity to proof and opportunity.
+          {t("title")}
         </h2>
       </div>
       <div className="mt-7 grid gap-4 md:grid-cols-4">
@@ -22,7 +26,7 @@ export function RoadmapPreview({ weeks }: RoadmapPreviewProps) {
               {week.week}
             </span>
             <h3 className="mt-4 text-base font-semibold leading-6 text-slate-950">
-              Week {week.week}: {week.title}
+              {common("labels.weekWithTitle", { week: week.week, title: week.title })}
             </h3>
           </article>
         ))}

@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 type ProgressOverviewProps = {
   progressPercent: number;
@@ -13,22 +14,25 @@ export function ProgressOverview({
   completedTasksCount,
   nextMilestone,
 }: ProgressOverviewProps) {
+  const t = useTranslations("dashboard.progress");
+  const common = useTranslations("common");
+
   return (
     <section className="rounded-lg border border-teal-100 bg-white/90 p-5 shadow-sm">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-teal-700">
-            30-Day Rebuild Progress
+            {t("eyebrow")}
           </p>
           <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-950">
-            {progressPercent}% complete
+            {common("labels.progressComplete", { progress: progressPercent })}
           </h2>
         </div>
         <Link
           className="text-sm font-semibold text-indigo-700 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           href="/rebuild-plan"
         >
-          View plan
+          {common("cta.viewPlan")}
         </Link>
       </div>
       <div className="mt-5 h-3 overflow-hidden rounded-full bg-slate-100">
@@ -38,9 +42,9 @@ export function ProgressOverview({
         />
       </div>
       <div className="mt-5 grid gap-3 sm:grid-cols-3">
-        <ProgressItem label="Current week" value={`Week ${currentWeek}`} />
-        <ProgressItem label="Completed tasks" value={`${completedTasksCount}`} />
-        <ProgressItem label="Next milestone" value={nextMilestone} />
+        <ProgressItem label={t("currentWeek")} value={common("labels.week", { week: currentWeek })} />
+        <ProgressItem label={t("completedTasks")} value={`${completedTasksCount}`} />
+        <ProgressItem label={t("nextMilestone")} value={nextMilestone} />
       </div>
     </section>
   );

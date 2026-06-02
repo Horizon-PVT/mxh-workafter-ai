@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "title": "WorkAfterAI",
+    "description": "Bớt lo vì AI. Biết bước tiếp theo."
+  },
+  "common": {
+    "brand": "WorkAfterAI",
+    "logoText": "WA",
+    "tagline": "Nền tảng xây lại sự nghiệp trong thời AI",
+    "backToHome": "Về WorkAfterAI",
+    "languageAria": "Chuyển ngôn ngữ sang {locale}",
+    "languageLabels": {
+      "en": "EN",
+      "vi": "VI",
+      "ja": "JA"
+    },
+    "nav": {
+      "problem": "Vấn đề",
+      "who": "Dành cho ai",
+      "how": "Cách hoạt động",
+      "features": "Tính năng",
+      "dashboard": "Bảng điều khiển",
+      "riskReport": "Báo cáo rủi ro",
+      "rebuildPlan": "Kế hoạch xây lại"
+    },
+    "cta": {
+      "checkRisk": "Qu?t r?i ro vai tr?",
+      "seeHow": "Xem k? ho?ch 30 ng?y",
+      "viewRiskReport": "Xem báo cáo AI",
+      "startRebuildPlan": "Bắt đầu kế hoạch",
+      "goDashboard": "Vào bảng điều khiển",
+      "rescan": "Quét lại vai trò",
+      "reviewRiskReport": "Xem lại báo cáo AI",
+      "continueTask": "Làm tiếp việc này",
+      "continueTodayTask": "Làm việc hôm nay",
+      "continueTodayRebuildTask": "Làm việc hôm nay",
+      "viewRebuildPlan": "Xem kế hoạch",
+      "viewPlan": "Xem kế hoạch",
+      "viewPath": "Xem lộ trình"
+    },
+    "status": {
+      "done": "Đã xong",
+      "inProgress": "Đang làm",
+      "next": "Tiếp theo",
+      "upcoming": "Sắp tới",
+      "completed": "Hoàn tất",
+      "ready": "Sẵn sàng để bắt đầu",
+      "easy": "Dễ",
+      "medium": "Vừa"
+    },
+    "labels": {
+      "difficulty": "Độ khó: {difficulty}",
+      "week": "Tuần {week}",
+      "weekWithTitle": "Tuần {week}: {title}",
+      "progressComplete": "Hoàn thành {progress}%",
+      "scoreOutOf100": "{score}/100",
+      "outOf100": "/100",
+      "notProvided": "Chưa cung cấp"
+    },
+    "banners": {
+      "sampleData": {
+        "title": "Đang xem báo cáo mẫu",
+        "description": "Hoàn thành bài quét định hướng 2 phút để cá nhân hóa dữ liệu này cho vai trò và công việc của bạn.",
+        "cta": "Hoàn thành định hướng"
+      }
+    }
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "Qu?t r?i ro ngh? nghi?p do AI mi?n ph?",
+      "title": "Bi?t r?i ro AI c?a b?n. Ch?n b??c ?i ti?p theo.",
+      "subtitle": "WorkAfterAI qu?t vai tr? c?a b?n, ch? ra vi?c n?o AI c? th? t? ??ng h?a, r?i g?i ? h??ng an to?n h?n v? k? ho?ch 30 ng?y.",
+      "audience": "D?nh cho ng??i ?i l?m, freelancer v? ng??i mu?n ??i h??ng khi c?ng vi?c ?ang thay ??i.",
+      "trustPills": [
+        "Mi?n ph? ? kho?ng 2 ph?t",
+        "Kh?ng c?n CV",
+        "Kh?ng c?n ??ng k?"
+      ]
+    },
+    "problem": {
+      "eyebrow": "V? sao vi?c n?y quan tr?ng",
+      "title": "R?i ro kh?ng n?m ? c? c?ng vi?c. N? n?m trong t?ng ph?n vi?c.",
+      "body": "C? th? kh?ch h?ng ??i nhi?u h?n v?i ng?n s?ch th?p h?n. C? th? c?u tr? l?i h? tr? ?ang d?n ???c t? ??ng h?a. C? th? vi?t, nghi?n c?u v? vi?c h?nh ch?nh ?ang r? h?n. B?n c?n nh?n r? ph?n n?o ?ang b? l?.",
+      "tasks": [
+        {
+          "label": "Vi?t & n?i dung",
+          "description": "B?n nh?p, t?m t?t, b?i ??ng v? brief gi? c? th? t?o nhanh h?n b?ng AI.",
+          "badge": "WC"
+        },
+        {
+          "label": "H? tr? & vi?c h?nh ch?nh",
+          "description": "Tr? l?i th??ng g?p, ??t l?ch, ph?n lu?ng v? ghi ch? ?ang ???c c?ng c? x? l?.",
+          "badge": "SA"
+        },
+        {
+          "label": "Nghi?n c?u & v?n h?nh",
+          "description": "So s?nh, b?o c?o, l?m s?ch d? li?u v? ki?m tra quy tr?nh ?ang b?t th? c?ng.",
+          "badge": "RO"
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "D?nh cho ai",
+      "title": "N?u th?y gi?ng m?nh, ??y l? n?i ?? b?t ??u.",
+      "audiences": [
+        {
+          "title": "Vai tr? c?a b?n ?ang ch?u ?p l?c AI",
+          "description": "B?n th?y nhi?u vi?c ???c t? ??ng h?a v? mu?n bi?t ph?n n?o c?n gi?.",
+          "badge": "01"
+        },
+        {
+          "title": "B?n v?a m?t vi?c ho?c m?t kh?ch",
+          "description": "B?n c?n h??ng ?i m?i d?a tr?n kinh nghi?m m?nh ?? c?.",
+          "badge": "02"
+        },
+        {
+          "title": "B?n mu?n ?i tr??c khi b? ?p ph?i ??i",
+          "description": "B?n c?n m?t h??ng an to?n h?n, kh?ng ph?i ?o?n n?n h?c g?.",
+          "badge": "03"
+        },
+        {
+          "title": "B?n l?m d?ch v? ho?c freelance",
+          "description": "B?n c?n b?ng ch?ng r?ng c?ng vi?c c?a m?nh v?n ??ng gi? trong th? tr??ng nhi?u AI.",
+          "badge": "04"
+        },
+        {
+          "title": "B?n mu?n s?n s?ng v?i AI",
+          "description": "B?n c?n workflow th?c t?, kh?ng ph?i th?m m?t kh?a h?c m? h?.",
+          "badge": "05"
+        }
+      ]
+    },
+    "how": {
+      "eyebrow": "C?ch ho?t ??ng",
+      "title": "B?n b??c. Kh?ng ?o?n m? s? nghi?p.",
+      "steps": [
+        {
+          "title": "Qu?t vai tr?",
+          "description": "Tr? l?i v?i c?u h?i. Th?y ngay ph?n vi?c ?ang r?i ro.",
+          "badge": "Qu?t"
+        },
+        {
+          "title": "Ch?n h??ng an to?n h?n",
+          "description": "Nh?n c?c h??ng chuy?n ph? h?p v?i kinh nghi?m c?a b?n.",
+          "badge": "H??ng"
+        },
+        {
+          "title": "X?y b?ng ch?ng",
+          "description": "T?o m?u vi?c ch?ng minh k? n?ng s?n s?ng v?i AI.",
+          "badge": "B?ng ch?ng"
+        },
+        {
+          "title": "Theo k? ho?ch",
+          "description": "D?ng l? tr?nh 30 ng?y ?? h?nh ??ng ngay h?m nay.",
+          "badge": "K? ho?ch"
+        }
+      ]
+    },
+    "features": {
+      "eyebrow": "B?n nh?n ???c g?",
+      "title": "Sau khi qu?t, b?n s? c? g?.",
+      "body": "B?c tranh r?i ro r? h?n, h??ng ?i th?ng minh h?n v? b?ng ch?ng c? th? d?ng ???c.",
+      "cards": [
+        {
+          "title": "Th?y vai tr? c?a b?n r?i ro ??n ??u",
+          "description": "Nh?n ?i?m s? ??n gi?n d?a tr?n nh?ng vi?c b?n th?t s? l?m.",
+          "accent": "indigo",
+          "icon": "68"
+        },
+        {
+          "title": "Bi?t n?n h?c g? ti?p theo",
+          "description": "T?p trung v?o k? n?ng gi?p kinh nghi?m c?a b?n kh? b? thay th? h?n.",
+          "accent": "teal",
+          "icon": "30"
+        },
+        {
+          "title": "Gi? l?i th? con ng??i",
+          "description": "Nh?n ra ph?n ?o?n, th?u c?m v? b?i c?nh m? AI v?n c?n b?n.",
+          "accent": "amber",
+          "icon": "HS"
+        },
+        {
+          "title": "X?y b?ng ch?ng, kh?ng ch? t? tin",
+          "description": "Bi?n qu? tr?nh h?c th?nh m?u vi?c ng??i kh?c c? th? xem.",
+          "accent": "indigo",
+          "icon": "PW"
+        },
+        {
+          "title": "Nh?m ??n c? h?i h?p h?n",
+          "description": "?i v? ph?a nh?ng vai tr? n?i AI l?m n?n t?ng c?a b?n h?u ?ch h?n.",
+          "accent": "teal",
+          "icon": "RO"
+        }
+      ]
+    },
+    "preview": {
+      "eyebrow": "B?o c?o m?u",
+      "title": "M?t b?o c?o n?i r? b?n n?n l?m g? ti?p theo.",
+      "body": "Th?y ph?n vi?c ?ang r?i ro, ?i?m m?nh con ng??i, h??ng an to?n h?n v? k? n?ng ??u ti?n c?n x?y."
+    },
+    "finalCta": {
+      "eyebrow": "B?t ??u h?m nay",
+      "title": "??ng ?o?n r?i ro AI. H?y qu?t vai tr? v? ch?n b??c ti?p theo.",
+      "body": "Mi?n ph?. Kho?ng 2 ph?t. Kh?ng c?n CV.",
+      "note": "Kh?ng c?n ??ng k?. Kh?ng ?p l?c. Ch? l? ?i?m b?t ??u r? h?n."
+    }
+  },
+  "riskPreview": {
+    "title": "Báo cáo rủi ro AI",
+    "riskLevel": "Đang đổi nhanh",
+    "highRiskTitle": "Vi?c c?n ch? ?",
+    "pivotTitle": "Hướng chuyển an toàn hơn",
+    "nextMoveLabel": "Bước tiếp theo",
+    "nextMove": "B?t ??u v?i workflow kh?ch h?ng m? AI c? th? h? tr?, kh?ng thay th?.",
+    "highRiskTasks": [
+      "Viết cơ bản",
+      "Nhập liệu",
+      "Trả lời khách hàng lặp lại"
+    ],
+    "pivotPaths": [
+      "Chiến lược gia nội dung AI",
+      "Trợ lý tự động hóa quy trình",
+      "Customer Success AI Operator"
+    ]
+  },
+  "onboarding": {
+    "storageKey": "workafterai:onboarding",
+    "progress": {
+      "stepOf": "Bước {current}/{total}"
+    },
+    "steps": [
+      {
+        "label": "Bắt đầu",
+        "eyebrow": "Bước 1"
+      },
+      {
+        "label": "Tình huống",
+        "eyebrow": "Bước 2"
+      },
+      {
+        "label": "Vai trò",
+        "eyebrow": "Bước 3"
+      },
+      {
+        "label": "Việc làm",
+        "eyebrow": "Bước 4"
+      },
+      {
+        "label": "Kỹ năng AI",
+        "eyebrow": "Bước 5"
+      },
+      {
+        "label": "Mục tiêu",
+        "eyebrow": "Bước 6"
+      },
+      {
+        "label": "Tóm tắt",
+        "eyebrow": "Bước 7"
+      }
+    ],
+    "welcome": {
+      "title": "Bắt đầu từ tình hình hiện tại của bạn.",
+      "body": "Trả lời vài câu hỏi ngắn để bản quét hiểu vai trò, việc hằng ngày, mức độ dùng AI và mục tiêu của bạn."
+    },
+    "situation": {
+      "title": "AI đang ảnh hưởng đến công việc của bạn thế nào?",
+      "options": [
+        "Tôi lo AI thay thế một phần công việc",
+        "Tôi vừa mất việc hoặc mất khách hàng",
+        "Tôi muốn chuyển nghề",
+        "Tôi muốn bắt kịp AI",
+        "Tôi cần dự án nhỏ hoặc thu nhập ngay"
+      ]
+    },
+    "role": {
+      "title": "Bạn đang xây lại từ vai trò nào?",
+      "body": "Đây không phải đơn ứng tuyển. Thông tin này giúp bản quét bám sát công việc thật của bạn.",
+      "fields": {
+        "currentJobTitle": {
+          "label": "Chức danh hiện tại",
+          "placeholder": "Chuyên viên hỗ trợ khách hàng"
+        },
+        "industry": {
+          "label": "Ngành",
+          "placeholder": "Phần mềm, giáo dục, bán lẻ..."
+        },
+        "yearsOfExperience": {
+          "label": "Số năm kinh nghiệm",
+          "placeholder": "5"
+        }
+      }
+    },
+    "tasks": {
+      "title": "Công việc hiện tại của bạn gồm những việc nào?",
+      "description": "Chọn mọi việc xuất hiện trong tuần làm việc của bạn.",
+      "options": [
+        "Viết",
+        "Hỗ trợ khách hàng",
+        "Thiết kế",
+        "Hành chính",
+        "Nhập liệu",
+        "Nghiên cứu",
+        "Quản lý",
+        "Bán hàng",
+        "Vận hành",
+        "Dựng video",
+        "Nội dung mạng xã hội",
+        "Phân tích dữ liệu"
+      ]
+    },
+    "aiSkill": {
+      "title": "Bạn dùng công cụ AI thoải mái đến đâu?",
+      "description": "Không có câu trả lời sai. Câu này giúp kế hoạch thực tế hơn.",
+      "options": [
+        "Mới bắt đầu",
+        "Thỉnh thoảng dùng",
+        "Dùng hằng ngày",
+        "Nâng cao"
+      ]
+    },
+    "goal": {
+      "title": "Bạn muốn đạt điều gì tiếp theo?",
+      "options": [
+        "Bảo vệ vai trò hiện tại",
+        "Tìm việc mới",
+        "Xây thu nhập freelance",
+        "Chuyển nghề",
+        "Tạo portfolio Proof-of-Work"
+      ]
+    },
+    "focus": {
+      "title": "Bản quét sẽ tập trung vào",
+      "items": [
+        "Rủi ro AI trong công việc hiện tại",
+        "Những việc đang dễ tự động hóa hơn",
+        "Hướng chuyển an toàn và kỹ năng tiếp theo",
+        "Điểm bắt đầu cho kế hoạch 30 ngày"
+      ]
+    },
+    "summary": {
+      "title": "Bản quét đã sẵn sàng.",
+      "body": "Chúng tôi đã chuẩn bị điểm bắt đầu cá nhân hóa cho báo cáo rủi ro AI của bạn.",
+      "labels": {
+        "situation": "Tình huống",
+        "role": "Vai trò",
+        "industry": "Ngành",
+        "experience": "Kinh nghiệm",
+        "aiComfort": "Mức độ dùng AI",
+        "goal": "Mục tiêu",
+        "dailyTasks": "Việc hằng ngày"
+      }
+    },
+    "buttons": {
+      "back": "Quay lại",
+      "continue": "Tiếp tục"
+    }
+  },
+  "scanner": {
+    "score": {
+      "label": "Báo cáo rủi ro AI",
+      "title": "Điểm gián đoạn AI của bạn",
+      "scoreAria": "Điểm gián đoạn AI {score} trên 100",
+      "ready": "Kế hoạch đã sẵn sàng",
+      "scoreNote": "Rủi ro trung bình nghĩa là vai trò đang đổi, nhưng bạn vẫn còn thời gian để chủ động."
+    },
+    "result": {
+      "disruptionScore": 68,
+      "riskLevel": "Rủi ro trung bình",
+      "supportiveExplanation": "Vai trò của bạn không biến mất sau một đêm — nhưng những việc này đang dễ bị tự động hóa hơn."
+    },
+    "tasksAtRisk": [
+      {
+        "title": "Viết cơ bản",
+        "explanation": "Bản nháp, tóm tắt và nội dung lặp lại giờ có thể được tạo nhanh bằng AI."
+      },
+      {
+        "title": "Nhập liệu",
+        "explanation": "Dữ liệu có cấu trúc có thể được trích xuất, làm sạch và chuyển giữa các công cụ với ít thao tác hơn."
+      },
+      {
+        "title": "Trả lời khách hàng lặp lại",
+        "explanation": "Câu hỏi phổ biến và phản hồi định kỳ ngày càng được xử lý bằng mẫu và công cụ AI."
+      }
+    ],
+    "riskTaskLabel": "Việc rủi ro cao",
+    "humanStrengthsSection": {
+      "eyebrow": "Thế mạnh con người cần giữ",
+      "title": "Đây là phần giúp bạn khác biệt.",
+      "body": "AI có thể tăng tốc việc lặp lại. Giá trị của bạn nằm ở phán đoán, ngữ cảnh và sự thấu cảm khi dùng công cụ."
+    },
+    "humanStrengths": [
+      {
+        "title": "Phán đoán",
+        "explanation": "Chọn hướng xử lý khi tình huống chưa rõ."
+      },
+      {
+        "title": "Thấu cảm",
+        "explanation": "Đọc được cảm xúc, niềm tin và mức độ khẩn cấp trong giao tiếp."
+      },
+      {
+        "title": "Ngữ cảnh chuyên môn",
+        "explanation": "Hiểu điều gì quan trọng với đội nhóm, khách hàng và quy trình."
+      },
+      {
+        "title": "Giao tiếp",
+        "explanation": "Trình bày quyết định rõ ràng và đúng giọng với từng người nghe."
+      },
+      {
+        "title": "Gu chất lượng",
+        "explanation": "Nhận ra đầu ra yếu và nâng tiêu chuẩn trước khi giao việc."
+      }
+    ],
+    "pivotSection": {
+      "eyebrow": "Hướng chuyển an toàn hơn",
+      "title": "Những hướng đi dựa trên kinh nghiệm bạn đã có."
+    },
+    "pivotPaths": [
+      {
+        "title": "Chiến lược gia nội dung AI",
+        "whyItFits": "Kinh nghiệm viết và giao tiếp có thể chuyển từ tự viết mọi bản nháp sang định hướng nội dung có AI hỗ trợ.",
+        "firstSkill": "Quy trình prompt cho brief, nháp và chỉnh sửa",
+        "difficulty": "Vừa, 3-5 tuần"
+      },
+      {
+        "title": "Trợ lý tự động hóa quy trình",
+        "whyItFits": "Hiểu các việc lặp lại giúp bạn lập bản đồ và cải thiện quy trình thủ công.",
+        "firstSkill": "Tự động hóa cơ bản với công cụ no-code",
+        "difficulty": "Vừa, 4-6 tuần"
+      },
+      {
+        "title": "Customer Success AI Operator",
+        "whyItFits": "Kinh nghiệm hỗ trợ, thấu cảm và hiểu sản phẩm rất hợp với hệ thống phản hồi có AI.",
+        "firstSkill": "Rà soát chất lượng phản hồi bằng AI",
+        "difficulty": "Dễ tiếp cận, 2-4 tuần"
+      }
+    ],
+    "pivotFirstSkill": "Kỹ năng đầu tiên",
+    "skillsSection": {
+      "eyebrow": "Kỹ năng nên xây tiếp",
+      "title": "Bắt đầu với kỹ năng thực tế giúp bạn mạnh hơn trong thời AI."
+    },
+    "skillsToBuild": [
+      {
+        "title": "Quy trình prompt",
+        "description": "Tạo prompt có thể dùng lại cho viết, chỉnh sửa, phân loại và hỗ trợ quyết định."
+      },
+      {
+        "title": "Nghiên cứu có AI hỗ trợ",
+        "description": "Dùng AI để so sánh, tóm tắt và sắp xếp thông tin mà không mất ngữ cảnh."
+      },
+      {
+        "title": "Tự động hóa cơ bản",
+        "description": "Hiểu việc di chuyển giữa các công cụ và điểm nào có thể tự động hóa."
+      },
+      {
+        "title": "Kiểm soát chất lượng",
+        "description": "Rà soát đầu ra AI về độ chính xác, giọng điệu và tác động tới người dùng."
+      },
+      {
+        "title": "Kể chuyện portfolio",
+        "description": "Gói lại vấn đề, quy trình và kết quả thành bằng chứng dễ hiểu."
+      }
+    ],
+    "roadmapPreview": {
+      "eyebrow": "Xem trước kế hoạch 30 ngày",
+      "title": "Bốn tuần từ rõ rủi ro đến có bằng chứng và cơ hội."
+    },
+    "cta": {
+      "eyebrow": "Bước tiếp theo",
+      "title": "Đưa báo cáo này thành kế hoạch 30 ngày có trọng tâm.",
+      "body": "Giữ đà khi bước tiếp theo còn rõ và cụ thể."
+    }
+  },
+  "rebuildPlan": {
+    "summary": {
+      "eyebrow": "Kế hoạch xây lại",
+      "title": "Kế hoạch xây lại sự nghiệp trong 30 ngày",
+      "body": "Đưa hiểu biết về rủi ro AI thành lộ trình thực tế, từng bước một.",
+      "cards": {
+        "score": "Điểm gián đoạn AI",
+        "targetRole": "Vai trò mục tiêu",
+        "nextSkill": "Kỹ năng tiếp theo",
+        "progress": "Tiến độ"
+      }
+    },
+    "plan": {
+      "title": "Kế hoạch xây lại sự nghiệp trong 30 ngày",
+      "currentScore": 68,
+      "targetRole": "Customer Success AI Operator",
+      "nextSkill": "Quy trình khách hàng có AI hỗ trợ",
+      "progressPercent": 18,
+      "currentWeek": 1,
+      "completedTasksCount": 2,
+      "nextAction": "Liệt kê 5 việc trong vai trò hiện tại mà AI đã có thể hỗ trợ."
+    },
+    "progress": {
+      "eyebrow": "Tổng quan tiến độ",
+      "title": "Tập trung vào việc hữu ích tiếp theo.",
+      "body": "Bạn không cần giải quyết cả sự nghiệp trong hôm nay. Chỉ cần đưa một việc thực tế tiến lên.",
+      "overall": "Tiến độ tổng thể",
+      "currentWeek": "Tuần hiện tại",
+      "completedTasks": "Việc đã xong",
+      "nextAction": "Việc tiếp theo"
+    },
+    "roadmap": {
+      "eyebrow": "Lộ trình theo tuần",
+      "title": "Bốn tuần từ rõ ràng đến bằng chứng.",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "Hiểu rủi ro",
+          "description": "Xác định phần công việc dễ bị tự động hóa và thế mạnh con người cần giữ.",
+          "tasks": [
+            {
+              "title": "Xem lại Điểm gián đoạn AI",
+              "status": "Done"
+            },
+            {
+              "title": "Liệt kê 5 việc AI có thể hỗ trợ",
+              "status": "In progress"
+            },
+            {
+              "title": "Chọn một hướng vai trò để thử",
+              "status": "Next"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "Học quy trình có AI",
+          "description": "Dùng AI như cộng sự trong quy trình để kinh nghiệm của bạn hữu ích hơn.",
+          "tasks": [
+            {
+              "title": "Viết lại vai trò thành 3 hướng có AI",
+              "status": "Upcoming"
+            },
+            {
+              "title": "So sánh 2 công cụ AI liên quan",
+              "status": "Upcoming"
+            },
+            {
+              "title": "Tạo một quy trình prompt lặp lại",
+              "status": "Upcoming"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "title": "Xây dự án Proof-of-Work",
+          "description": "Đưa việc học thành mẫu công việc cho thấy bạn giải quyết vấn đề thật với AI.",
+          "tasks": [
+            {
+              "title": "Xây 1 mẫu Proof-of-Work",
+              "status": "Upcoming"
+            },
+            {
+              "title": "Ghi lại trước đó, quy trình và kết quả",
+              "status": "Upcoming"
+            },
+            {
+              "title": "Nhờ một người đáng tin góp ý",
+              "status": "Upcoming"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "Ứng tuyển vào cơ hội phù hợp",
+          "description": "Cập nhật cách giới thiệu bản thân và nhắm đến vai trò cần kỹ năng AI thực tế.",
+          "tasks": [
+            {
+              "title": "Cập nhật headline cho vai trò mục tiêu",
+              "status": "Upcoming"
+            },
+            {
+              "title": "Phác thảo case study portfolio",
+              "status": "Upcoming"
+            },
+            {
+              "title": "Tìm 5 cơ hội phù hợp để xây lại",
+              "status": "Upcoming"
+            }
+          ]
+        }
+      ]
+    },
+    "dailyTasks": {
+      "eyebrow": "Việc hằng ngày",
+      "title": "Việc nhỏ giúp kế hoạch thành thật.",
+      "items": [
+        {
+          "title": "Liệt kê 5 việc trong vai trò hiện tại mà AI đã có thể hỗ trợ",
+          "estimatedTime": "20 phút",
+          "difficulty": "Easy",
+          "status": "In progress"
+        },
+        {
+          "title": "Viết lại vai trò hiện tại thành 3 hướng có AI hỗ trợ",
+          "estimatedTime": "30 phút",
+          "difficulty": "Medium",
+          "status": "Next"
+        },
+        {
+          "title": "So sánh 2 công cụ AI liên quan đến công việc",
+          "estimatedTime": "25 phút",
+          "difficulty": "Easy",
+          "status": "Upcoming"
+        },
+        {
+          "title": "Xây 1 mẫu Proof-of-Work",
+          "estimatedTime": "90 phút",
+          "difficulty": "Medium",
+          "status": "Upcoming"
+        },
+        {
+          "title": "Phác thảo case study portfolio",
+          "estimatedTime": "35 phút",
+          "difficulty": "Medium",
+          "status": "Upcoming"
+        },
+        {
+          "title": "Cập nhật headline cho vai trò mục tiêu",
+          "estimatedTime": "15 phút",
+          "difficulty": "Easy",
+          "status": "Upcoming"
+        }
+      ]
+    },
+    "skillGap": {
+      "eyebrow": "Khoảng cách kỹ năng",
+      "title": "Giữ thế mạnh. Bổ sung quy trình.",
+      "summary": "Bạn đã hiểu khách hàng và biết cách giao tiếp. Khoảng trống cần bù là đưa kinh nghiệm đó thành quy trình có AI và Proof-of-Work rõ ràng.",
+      "currentStrengths": "Thế mạnh hiện có",
+      "skillsNext": "Kỹ năng cần xây",
+      "currentStrengthItems": [
+        "Thấu cảm với khách hàng",
+        "Giao tiếp rõ",
+        "Ngữ cảnh từ hỗ trợ thực tế"
+      ],
+      "skillsNextItems": [
+        "Quy trình prompt",
+        "Rà soát chất lượng AI",
+        "Tự động hóa đơn giản",
+        "Kể chuyện portfolio"
+      ]
+    },
+    "proof": {
+      "eyebrow": "Proof-of-Work",
+      "title": "Xây bằng chứng, không chỉ tự tin.",
+      "body": "Cuối kế hoạch, bạn sẽ có bằng chứng nhỏ cho thấy cách bạn làm việc với AI trong bối cảnh thật.",
+      "outputLabel": "Đầu ra {index}",
+      "goals": [
+        "1 quy trình nhỏ có AI hỗ trợ",
+        "1 mẫu Proof-of-Work",
+        "1 câu chuyện portfolio / case study"
+      ]
+    },
+    "encouragement": {
+      "eyebrow": "Giữ nhịp con người",
+      "messages": [
+        "Bạn không cần giải quyết mọi thứ trong tuần này.",
+        "Bằng chứng nhỏ mạnh hơn ý định mơ hồ.",
+        "Bước tiếp theo chỉ cần đủ rõ để bắt đầu."
+      ]
+    },
+    "cta": {
+      "eyebrow": "Tiếp tục xây lại",
+      "title": "Việc tiếp theo đã đủ rõ để bắt đầu.",
+      "body": "Giữ mọi thứ thực tế. Một việc hoàn tất tạo nhiều đà hơn một kế hoạch hoàn hảo."
+    }
+  },
+  "dashboard": {
+    "user": {
+      "firstName": "Maya",
+      "currentRole": "Chuyên viên hỗ trợ khách hàng",
+      "experienceLevel": "Trung cấp",
+      "aiSkillLevel": "Thỉnh thoảng dùng",
+      "primaryGoal": "Bảo vệ vai trò hiện tại"
+    },
+    "header": {
+      "eyebrow": "Bảng điều khiển",
+      "title": "Chào mừng trở lại. Bước tiếp theo đã rõ.",
+      "body": "Theo dõi rủi ro AI, tiến độ xây lại và việc cần làm tiếp theo."
+    },
+    "summary": {
+      "score": "Điểm gián đoạn AI",
+      "nextSkill": "Kỹ năng tiếp theo",
+      "bestOpportunity": "Cơ hội phù hợp nhất",
+      "progress": "Tiến độ 30 ngày",
+      "nextSkillValue": "Quy trình khách hàng có AI hỗ trợ",
+      "bestOpportunityValue": "Customer Success AI Operator"
+    },
+    "todayTask": {
+      "eyebrow": "Việc hôm nay",
+      "body": "Bắt đầu bằng danh sách cụ thể. Nó kéo nỗi lo xuống thành việc có thể đánh giá và cải thiện."
+    },
+    "progress": {
+      "eyebrow": "Tiến độ xây lại 30 ngày",
+      "currentWeek": "Tuần hiện tại",
+      "completedTasks": "Việc đã xong",
+      "nextMilestone": "Mốc tiếp theo",
+      "nextMilestoneValue": "Hoàn tất bản đồ rủi ro Tuần 1"
+    },
+    "risk": {
+      "eyebrow": "Tóm tắt rủi ro AI",
+      "topTask": "Việc rủi ro cao nhất",
+      "strongestStrength": "Thế mạnh con người nổi bật nhất"
+    },
+    "actions": {
+      "eyebrow": "Gợi ý tiếp theo",
+      "items": [
+        {
+          "title": "Làm tiếp việc hôm nay",
+          "description": "Đưa việc hiện tại tiến lên khi bước tiếp theo còn rõ.",
+          "href": "/rebuild-plan"
+        },
+        {
+          "title": "Xây một mẫu Proof-of-Work",
+          "description": "Đưa một quy trình có AI thành bằng chứng nhìn thấy được.",
+          "href": "/rebuild-plan"
+        },
+        {
+          "title": "Xem lại báo cáo AI",
+          "description": "Xem lại những việc và thế mạnh đang định hình kế hoạch.",
+          "href": "/scanner"
+        }
+      ]
+    },
+    "opportunities": {
+      "eyebrow": "Cơ hội gần nhất",
+      "title": "Những hướng xây lại đáng giữ trong tầm nhìn.",
+      "badge": "Cơ hội phù hợp để xây lại",
+      "firstSkill": "Kỹ năng đầu tiên",
+      "items": [
+        {
+          "title": "Customer Success AI Operator",
+          "matchReason": "Hợp với kinh nghiệm hỗ trợ, giao tiếp và kỹ năng quy trình AI tiếp theo.",
+          "firstSkillRequired": "Rà soát chất lượng phản hồi bằng AI"
+        },
+        {
+          "title": "Trợ lý tự động hóa quy trình",
+          "matchReason": "Dựa trên hiểu biết của bạn về việc lặp lại và điểm nghẽn thủ công.",
+          "firstSkillRequired": "Tự động hóa cơ bản với công cụ no-code"
+        }
+      ]
+    },
+    "profile": {
+      "eyebrow": "Hồ sơ Proof-of-Work",
+      "percent": 35,
+      "title": "Hoàn thiện hồ sơ: {percent}%",
+      "suggestedNext": "Bước gợi ý",
+      "nextStep": "Thêm một mẫu Proof-of-Work"
+    },
+    "cta": {
+      "eyebrow": "Tiếp tục tiến lên",
+      "title": "Bằng chứng nhỏ mạnh hơn ý định mơ hồ.",
+      "body": "Hôm nay, hãy làm việc tạo ra bằng chứng."
+    }
+  }
+}

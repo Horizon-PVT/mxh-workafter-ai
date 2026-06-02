@@ -1,6 +1,9 @@
-import Link from "next/link";
+"use client";
+
 import type { ReactNode } from "react";
 
+import { Link } from "@/i18n/routing";
+import { type AnalyticsEventName, trackEvent } from "@/lib/analytics";
 import { cn } from "@/lib/utils";
 
 type CTAButtonProps = {
@@ -9,6 +12,8 @@ type CTAButtonProps = {
   variant?: "primary" | "secondary";
   size?: "sm" | "md";
   className?: string;
+  analyticsEvent?: AnalyticsEventName;
+  analyticsProperties?: Record<string, string | number | boolean>;
 };
 
 export function CTAButton({
@@ -17,6 +22,8 @@ export function CTAButton({
   variant = "primary",
   size = "md",
   className,
+  analyticsEvent,
+  analyticsProperties,
 }: CTAButtonProps) {
   return (
     <Link
@@ -29,6 +36,11 @@ export function CTAButton({
         className,
       )}
       href={href}
+      onClick={() => {
+        if (analyticsEvent) {
+          trackEvent(analyticsEvent, analyticsProperties);
+        }
+      }}
     >
       {children}
     </Link>

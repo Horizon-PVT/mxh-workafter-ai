@@ -1,30 +1,41 @@
 import { CTAButton } from "@/components/ui/CTAButton";
 import { RiskReportPreview } from "@/components/ui/RiskReportPreview";
-
-const trustPills = ["Free risk scan", "No resume required", "Get a 30-day plan"];
+import { useTranslations } from "next-intl";
 
 export function HeroSection() {
+  const t = useTranslations("landing.hero");
+  const common = useTranslations("common");
+  const trustPills = t.raw("trustPills") as string[];
+
   return (
-    <section className="overflow-hidden bg-[linear-gradient(135deg,#fbf7ff_0%,#f6fbf9_48%,#fff8ed_100%)] px-6 py-12 sm:py-16 lg:px-8">
-      <div className="mx-auto grid max-w-7xl items-center gap-9 lg:grid-cols-[1.02fr_0.98fr]">
+    <section className="overflow-hidden bg-[linear-gradient(135deg,#fbf7ff_0%,#f6fbf9_48%,#fff8ed_100%)] px-6 py-10 sm:py-14 lg:px-8">
+      <div className="mx-auto grid max-w-7xl items-center gap-8 lg:grid-cols-[1.02fr_0.98fr]">
         <div>
           <p className="inline-flex rounded-full bg-white/80 px-4 py-2 text-sm font-semibold text-teal-700 shadow-sm ring-1 ring-teal-100">
-            From AI job anxiety to a clear next move
+            {t("eyebrow")}
           </p>
-          <h1 className="mt-5 max-w-3xl text-5xl font-semibold tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">
-            Work changed. You are not finished.
+          <h1 className="mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">
+            {t("title")}
           </h1>
-          <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl sm:leading-9">
-            Understand your AI job risk, rebuild your skills, prove your value, and find your
-            next opportunity in the age of AI.
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl sm:leading-9">
+            {t("subtitle")}
           </p>
-          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-            <CTAButton href="/onboarding">Check My AI Job Risk</CTAButton>
+          <p className="mt-3 max-w-2xl text-sm font-semibold leading-6 text-indigo-700">
+            {t("audience")}
+          </p>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <CTAButton
+              href="/onboarding"
+              analyticsEvent="landing_cta_clicked"
+              analyticsProperties={{ placement: "hero_primary" }}
+            >
+              {common("cta.checkRisk")}
+            </CTAButton>
             <CTAButton href="#how-it-works" variant="secondary">
-              See How It Works
+              {common("cta.seeHow")}
             </CTAButton>
           </div>
-          <div className="mt-5 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap gap-2">
             {trustPills.map((pill) => (
               <span
                 key={pill}

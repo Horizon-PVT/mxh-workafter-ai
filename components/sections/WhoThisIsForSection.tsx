@@ -1,42 +1,22 @@
 import { Section } from "@/components/ui/Section";
-
-const audiences = [
-  {
-    title: "Worried workers",
-    description: "See which parts of your job are changing and what to protect.",
-    badge: "01",
-  },
-  {
-    title: "Recently laid off",
-    description: "Find a clearer path without starting from zero.",
-    badge: "02",
-  },
-  {
-    title: "Career switchers",
-    description: "Translate your experience into safer AI-era directions.",
-    badge: "03",
-  },
-  {
-    title: "Freelancers rebuilding income",
-    description: "Package practical skills into proof clients can trust.",
-    badge: "04",
-  },
-  {
-    title: "AI-ready workers",
-    description: "Learn where AI can strengthen the work you already do.",
-    badge: "05",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export function WhoThisIsForSection() {
+  const t = useTranslations("landing.who");
+  const audiences = t.raw("audiences") as Array<{
+    title: string;
+    description: string;
+    badge: string;
+  }>;
+
   return (
     <Section id="who-this-is-for">
       <div className="mx-auto max-w-3xl text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-teal-700">
-          Who This Is For
+          {t("eyebrow")}
         </p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-          Built for people who need a practical next move.
+          {t("title")}
         </h2>
       </div>
 

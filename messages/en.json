@@ -1,0 +1,690 @@
+{
+  "meta": {
+    "title": "WorkAfterAI",
+    "description": "From AI job anxiety to a clear next move."
+  },
+  "common": {
+    "brand": "WorkAfterAI",
+    "logoText": "WA",
+    "tagline": "AI Career Rebuild Platform",
+    "backToHome": "Back to WorkAfterAI",
+    "languageAria": "Switch language to {locale}",
+    "languageLabels": {
+      "en": "EN",
+      "vi": "VI",
+      "ja": "JA"
+    },
+    "nav": {
+      "problem": "Problem",
+      "who": "Who It Helps",
+      "how": "How It Works",
+      "features": "Features",
+      "dashboard": "Dashboard",
+      "riskReport": "Risk Report",
+      "rebuildPlan": "Rebuild Plan"
+    },
+    "cta": {
+      "checkRisk": "Scan My Role Risk",
+      "seeHow": "See the 30-Day Plan",
+      "viewRiskReport": "View My AI Risk Report",
+      "startRebuildPlan": "Start My Rebuild Plan",
+      "goDashboard": "Go to Dashboard",
+      "rescan": "Re-scan My Role",
+      "reviewRiskReport": "Review My AI Risk Report",
+      "continueTask": "Continue Task",
+      "continueTodayTask": "Continue Today's Task",
+      "continueTodayRebuildTask": "Continue Today's Rebuild Task",
+      "viewRebuildPlan": "View Rebuild Plan",
+      "viewPlan": "View plan",
+      "viewPath": "View path"
+    },
+    "status": {
+      "done": "Done",
+      "inProgress": "In progress",
+      "next": "Next",
+      "upcoming": "Upcoming",
+      "completed": "Completed",
+      "ready": "Ready when you are",
+      "easy": "Easy",
+      "medium": "Medium"
+    },
+    "labels": {
+      "difficulty": "Difficulty: {difficulty}",
+      "week": "Week {week}",
+      "weekWithTitle": "Week {week}: {title}",
+      "progressComplete": "{progress}% complete",
+      "scoreOutOf100": "{score}/100",
+      "outOf100": "/100",
+      "notProvided": "Not provided"
+    },
+    "banners": {
+      "sampleData": {
+        "title": "Viewing sample report",
+        "description": "Complete the quick 2-minute onboarding scan to personalize this data for your specific role and tasks.",
+        "cta": "Complete Onboarding"
+      }
+    }
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "Free AI job risk scan",
+      "title": "Know your AI job risk. Build your next move.",
+      "subtitle": "WorkAfterAI scans your role, shows which tasks AI can automate, and gives you safer paths plus a 30-day rebuild plan.",
+      "audience": "Built for workers, freelancers, and career switchers worried their work is changing.",
+      "trustPills": ["Free · takes 2 minutes", "No resume required", "No signup"]
+    },
+    "problem": {
+      "eyebrow": "Why This Matters",
+      "title": "The threat is not your whole job. It is the tasks inside it.",
+      "body": "Maybe clients ask for more with smaller budgets. Maybe support replies feel automated. Maybe writing, research, and admin work are getting cheaper. You need a clear view of what is exposed.",
+      "tasks": [
+        {
+          "label": "Writing & content",
+          "description": "Drafts, summaries, posts, and briefs are now easier to produce with AI.",
+          "badge": "WC"
+        },
+        {
+          "label": "Support & admin work",
+          "description": "Common replies, scheduling, routing, and notes are being handled by tools.",
+          "badge": "SA"
+        },
+        {
+          "label": "Research & operations",
+          "description": "Comparisons, reports, data cleanup, and process checks are becoming less manual.",
+          "badge": "RO"
+        }
+      ]
+    },
+    "who": {
+      "eyebrow": "Who It Helps",
+      "title": "If this feels familiar, this is for you.",
+      "audiences": [
+        {
+          "title": "Your role now includes AI pressure",
+          "description": "You see tasks getting automated and want to know what to protect.",
+          "badge": "01"
+        },
+        {
+          "title": "You were laid off or lost clients",
+          "description": "You need a next direction that uses the experience you already have.",
+          "badge": "02"
+        },
+        {
+          "title": "You want to move before you must",
+          "description": "You want a safer path without guessing what to learn.",
+          "badge": "03"
+        },
+        {
+          "title": "You sell services or freelance",
+          "description": "You need proof that your work still matters in an AI-heavy market.",
+          "badge": "04"
+        },
+        {
+          "title": "You want to become AI-ready",
+          "description": "You want practical workflows, not another vague course.",
+          "badge": "05"
+        }
+      ]
+    },
+    "how": {
+      "eyebrow": "How It Works",
+      "title": "Four steps. No career guesswork.",
+      "steps": [
+        {
+          "title": "Scan your role",
+          "description": "Answer a few questions. See your exposed tasks.",
+          "badge": "Scan"
+        },
+        {
+          "title": "Choose a safer path",
+          "description": "Get pivot paths that fit your experience.",
+          "badge": "Path"
+        },
+        {
+          "title": "Build proof",
+          "description": "Create samples that show AI-ready skills.",
+          "badge": "Proof"
+        },
+        {
+          "title": "Follow the plan",
+          "description": "Use the 30-day roadmap to act today.",
+          "badge": "Plan"
+        }
+      ]
+    },
+    "features": {
+      "eyebrow": "What You Get",
+      "title": "What you will walk away with.",
+      "body": "A clearer risk picture, a smarter direction, and proof you can use.",
+      "cards": [
+        {
+          "title": "See how at risk your role is",
+          "description": "Get a simple score based on the tasks you actually do.",
+          "accent": "indigo",
+          "icon": "68"
+        },
+        {
+          "title": "Know what to learn next",
+          "description": "Focus on skills that make your experience harder to replace.",
+          "accent": "teal",
+          "icon": "30"
+        },
+        {
+          "title": "Protect your human edge",
+          "description": "Spot the judgment, empathy, and context AI still needs you for.",
+          "accent": "amber",
+          "icon": "HS"
+        },
+        {
+          "title": "Build proof, not just confidence",
+          "description": "Turn your learning into samples people can review.",
+          "accent": "indigo",
+          "icon": "PW"
+        },
+        {
+          "title": "Aim at better-fit opportunities",
+          "description": "Move toward roles where AI makes your background more useful.",
+          "accent": "teal",
+          "icon": "RO"
+        }
+      ]
+    },
+    "preview": {
+      "eyebrow": "Sample Risk Report",
+      "title": "A report that tells you what to do next.",
+      "body": "See exposed tasks, human strengths, safer paths, and the first skills to build."
+    },
+    "finalCta": {
+      "eyebrow": "Start Today",
+      "title": "Stop guessing. Scan your role and plan your next move.",
+      "body": "Free scan. Takes about 2 minutes. No resume required.",
+      "note": "No signup. No pressure. Just a clearer starting point."
+    }
+  },
+  "riskPreview": {
+    "title": "AI Job Risk Report",
+    "riskLevel": "Medium risk",
+    "highRiskTitle": "Tasks to watch",
+    "pivotTitle": "Safer next paths",
+    "nextMoveLabel": "Next move",
+    "nextMove": "Start with customer workflows AI can support, not replace.",
+    "highRiskTasks": ["Routine writing", "Data cleanup", "Repeated support replies"],
+    "pivotPaths": [
+      "AI Content Strategist",
+      "Workflow Automation Assistant",
+      "Customer Success AI Operator"
+    ]
+  },
+  "onboarding": {
+    "storageKey": "workafterai:onboarding",
+    "progress": {
+      "stepOf": "Step {current} of {total}"
+    },
+    "steps": [
+      { "label": "Welcome", "eyebrow": "Step 1" },
+      { "label": "Situation", "eyebrow": "Step 2" },
+      { "label": "Role", "eyebrow": "Step 3" },
+      { "label": "Tasks", "eyebrow": "Step 4" },
+      { "label": "AI Skill", "eyebrow": "Step 5" },
+      { "label": "Goal", "eyebrow": "Step 6" },
+      { "label": "Summary", "eyebrow": "Step 7" }
+    ],
+    "welcome": {
+      "title": "Let's understand where you are right now.",
+      "body": "Answer a few practical questions so your scan can personalize the next steps around your role, daily tasks, AI comfort level, and rebuild goal."
+    },
+    "situation": {
+      "title": "How is AI affecting your work?",
+      "options": [
+        "I'm worried AI may replace parts of my job",
+        "I recently lost my job or clients",
+        "I want to switch careers",
+        "I want to become AI-ready",
+        "I need small projects or income now"
+      ]
+    },
+    "role": {
+      "title": "What role are you rebuilding from?",
+      "body": "This is not a job application. It helps shape the scan around work you actually do.",
+      "fields": {
+        "currentJobTitle": {
+          "label": "Current job title",
+          "placeholder": "Customer Support Specialist"
+        },
+        "industry": {
+          "label": "Industry",
+          "placeholder": "Software, education, retail..."
+        },
+        "yearsOfExperience": {
+          "label": "Years of experience",
+          "placeholder": "5"
+        }
+      }
+    },
+    "tasks": {
+      "title": "Which tasks are part of your current work?",
+      "description": "Choose every task that shows up in your week. This helps shape your risk scan.",
+      "options": [
+        "Writing",
+        "Customer support",
+        "Design",
+        "Admin work",
+        "Data entry",
+        "Research",
+        "Management",
+        "Sales",
+        "Operations",
+        "Video editing",
+        "Social media content",
+        "Data analysis"
+      ]
+    },
+    "aiSkill": {
+      "title": "How comfortable are you using AI tools today?",
+      "description": "There is no wrong answer. This helps us build a realistic plan.",
+      "options": ["Beginner", "Using AI sometimes", "Using AI daily", "Advanced"]
+    },
+    "goal": {
+      "title": "What do you want to achieve next?",
+      "options": [
+        "Protect my current role",
+        "Find a new job",
+        "Build freelance income",
+        "Switch careers",
+        "Create a proof-of-work portfolio"
+      ]
+    },
+    "focus": {
+      "title": "Your scan will focus on",
+      "items": [
+        "AI job risk in your current work",
+        "Tasks becoming easier to automate",
+        "Safer pivot paths and next skills",
+        "A practical 30-day rebuild starting point"
+      ]
+    },
+    "summary": {
+      "title": "Your scan is ready.",
+      "body": "We've prepared a personalized AI Job Risk starting point based on your situation.",
+      "labels": {
+        "situation": "Situation",
+        "role": "Role",
+        "industry": "Industry",
+        "experience": "Experience",
+        "aiComfort": "AI comfort",
+        "goal": "Goal",
+        "dailyTasks": "Daily tasks"
+      }
+    },
+    "buttons": {
+      "back": "Back",
+      "continue": "Continue"
+    }
+  },
+  "scanner": {
+    "score": {
+      "label": "AI Job Risk Report",
+      "title": "Your AI Disruption Score",
+      "scoreAria": "AI Disruption Score {score} out of 100",
+      "ready": "Rebuild plan ready",
+      "scoreNote": "Medium risk means your role is changing, and you still have room to move early."
+    },
+    "result": {
+      "disruptionScore": 68,
+      "riskLevel": "Medium Risk",
+      "supportiveExplanation": "Your role is not disappearing overnight — but these tasks are becoming easier to automate."
+    },
+    "tasksAtRisk": [
+      {
+        "title": "Basic writing",
+        "explanation": "First drafts, summaries, and repeatable content can now be produced quickly with AI assistance."
+      },
+      {
+        "title": "Data entry",
+        "explanation": "Structured information can be extracted, cleaned, and moved between tools with fewer manual steps."
+      },
+      {
+        "title": "Repetitive customer replies",
+        "explanation": "Common questions and routine responses are increasingly handled by templates and AI support tools."
+      }
+    ],
+    "riskTaskLabel": "High-risk task",
+    "humanStrengthsSection": {
+      "eyebrow": "Human Strengths To Protect",
+      "title": "These strengths keep you valuable.",
+      "body": "AI can speed up routine output, but your value grows when you pair tools with human judgment, context, and care."
+    },
+    "humanStrengths": [
+      {
+        "title": "Judgment",
+        "explanation": "Choosing the right action when the situation is unclear."
+      },
+      {
+        "title": "Empathy",
+        "explanation": "Reading emotion, trust, urgency, and context in human conversations."
+      },
+      {
+        "title": "Domain context",
+        "explanation": "Knowing what matters in your team, customers, market, and workflow."
+      },
+      {
+        "title": "Communication",
+        "explanation": "Explaining decisions clearly and adapting tone to the person receiving it."
+      },
+      {
+        "title": "Taste / quality control",
+        "explanation": "Spotting weak output and raising the standard before work ships."
+      }
+    ],
+    "pivotSection": {
+      "eyebrow": "Safer Pivot Paths",
+      "title": "Directions that build on your existing experience."
+    },
+    "pivotPaths": [
+      {
+        "title": "AI Content Strategist",
+        "whyItFits": "Your writing and communication experience can shift from producing every draft to directing useful AI-assisted content.",
+        "firstSkill": "Prompt workflows for briefs, drafts, and edits",
+        "difficulty": "Moderate, 3-5 weeks"
+      },
+      {
+        "title": "Workflow Automation Assistant",
+        "whyItFits": "Your knowledge of repeated tasks can become a strength when you map and improve manual workflows.",
+        "firstSkill": "Automation basics with no-code tools",
+        "difficulty": "Moderate, 4-6 weeks"
+      },
+      {
+        "title": "Customer Success AI Operator",
+        "whyItFits": "Support experience, empathy, and product context are valuable when paired with AI-assisted response systems.",
+        "firstSkill": "AI quality review for customer replies",
+        "difficulty": "Accessible, 2-4 weeks"
+      }
+    ],
+    "pivotFirstSkill": "First skill to build",
+    "skillsSection": {
+      "eyebrow": "Skills To Build Next",
+      "title": "Start with practical skills that make your work more AI-ready."
+    },
+    "skillsToBuild": [
+      {
+        "title": "Prompt workflows",
+        "description": "Build repeatable prompts for drafting, editing, triage, and decision support."
+      },
+      {
+        "title": "AI-assisted research",
+        "description": "Use AI to compare, summarize, and organize information without losing context."
+      },
+      {
+        "title": "Automation basics",
+        "description": "Learn how tasks move between tools and where simple automation can help."
+      },
+      {
+        "title": "Quality control",
+        "description": "Review AI output for accuracy, tone, edge cases, and user impact."
+      },
+      {
+        "title": "Portfolio storytelling",
+        "description": "Turn your rebuild work into proof that explains the problem, process, and result."
+      }
+    ],
+    "roadmapPreview": {
+      "eyebrow": "30-Day Rebuild Plan Preview",
+      "title": "Four weeks from risk clarity to proof and opportunity."
+    },
+    "cta": {
+      "eyebrow": "Your Next Move",
+      "title": "Turn this report into a focused 30-day rebuild plan.",
+      "body": "Keep the momentum while the next step is clear and specific."
+    }
+  },
+  "rebuildPlan": {
+    "summary": {
+      "eyebrow": "Career Rebuild Plan",
+      "title": "Your 30-Day Career Rebuild Plan",
+      "body": "Turn your AI risk insight into a practical, step-by-step rebuild path.",
+      "cards": {
+        "score": "AI Disruption Score",
+        "targetRole": "Target Role",
+        "nextSkill": "Next Skill to Build",
+        "progress": "Progress"
+      }
+    },
+    "plan": {
+      "title": "Your 30-Day Career Rebuild Plan",
+      "currentScore": 68,
+      "targetRole": "Customer Success AI Operator",
+      "nextSkill": "AI-assisted customer workflows",
+      "progressPercent": 18,
+      "currentWeek": 1,
+      "completedTasksCount": 2,
+      "nextAction": "List 5 tasks in your current role that AI can already assist."
+    },
+    "progress": {
+      "eyebrow": "Progress Overview",
+      "title": "Focus on the next useful action.",
+      "body": "You do not need to solve the whole career shift today. Move one practical task forward and let the plan compound.",
+      "overall": "Overall progress",
+      "currentWeek": "Current week",
+      "completedTasks": "Completed tasks",
+      "nextAction": "Next action"
+    },
+    "roadmap": {
+      "eyebrow": "Weekly Roadmap",
+      "title": "Four weeks from clarity to proof.",
+      "weeks": [
+        {
+          "week": 1,
+          "title": "Understand your risk",
+          "description": "Map the parts of your current work that are most exposed to automation and the human strengths worth protecting.",
+          "tasks": [
+            { "title": "Review your AI Disruption Score", "status": "Done" },
+            { "title": "List 5 tasks AI can already assist", "status": "In progress" },
+            { "title": "Choose one role direction to test", "status": "Next" }
+          ]
+        },
+        {
+          "week": 2,
+          "title": "Learn AI-assisted workflows",
+          "description": "Practice using AI as a workflow partner so your existing experience becomes more useful, not less visible.",
+          "tasks": [
+            { "title": "Rewrite your role into 3 AI-assisted directions", "status": "Upcoming" },
+            { "title": "Compare 2 AI tools relevant to your work", "status": "Upcoming" },
+            { "title": "Create one repeatable prompt workflow", "status": "Upcoming" }
+          ]
+        },
+        {
+          "week": 3,
+          "title": "Build proof-of-work projects",
+          "description": "Turn learning into a visible sample that shows how you solve a real work problem with AI support.",
+          "tasks": [
+            { "title": "Build 1 proof-of-work sample", "status": "Upcoming" },
+            { "title": "Document before, process, and result", "status": "Upcoming" },
+            { "title": "Ask one trusted person for feedback", "status": "Upcoming" }
+          ]
+        },
+        {
+          "week": 4,
+          "title": "Apply to rebuild-friendly opportunities",
+          "description": "Update your positioning and aim toward roles or projects where your AI-assisted workflow skills are useful.",
+          "tasks": [
+            { "title": "Update your profile headline for your target role", "status": "Upcoming" },
+            { "title": "Draft a portfolio case study outline", "status": "Upcoming" },
+            { "title": "Identify 5 rebuild-friendly opportunities", "status": "Upcoming" }
+          ]
+        }
+      ]
+    },
+    "dailyTasks": {
+      "eyebrow": "Daily Task List",
+      "title": "Small tasks that make the plan real.",
+      "items": [
+        {
+          "title": "List 5 tasks in your current role that AI can already assist",
+          "estimatedTime": "20 min",
+          "difficulty": "Easy",
+          "status": "In progress"
+        },
+        {
+          "title": "Rewrite your current role into 3 AI-assisted directions",
+          "estimatedTime": "30 min",
+          "difficulty": "Medium",
+          "status": "Next"
+        },
+        {
+          "title": "Compare 2 AI tools relevant to your work",
+          "estimatedTime": "25 min",
+          "difficulty": "Easy",
+          "status": "Upcoming"
+        },
+        {
+          "title": "Build 1 proof-of-work sample",
+          "estimatedTime": "90 min",
+          "difficulty": "Medium",
+          "status": "Upcoming"
+        },
+        {
+          "title": "Draft a portfolio case study outline",
+          "estimatedTime": "35 min",
+          "difficulty": "Medium",
+          "status": "Upcoming"
+        },
+        {
+          "title": "Update your profile headline for your target role",
+          "estimatedTime": "15 min",
+          "difficulty": "Easy",
+          "status": "Upcoming"
+        }
+      ]
+    },
+    "skillGap": {
+      "eyebrow": "Skill Gap",
+      "title": "Keep your strengths. Add the missing workflows.",
+      "summary": "You already understand customer needs and communication. The gap is turning that experience into AI-assisted workflows and visible proof-of-work.",
+      "currentStrengths": "Current strengths",
+      "skillsNext": "Skills to build next",
+      "currentStrengthItems": [
+        "Customer empathy",
+        "Clear communication",
+        "Context from real support conversations"
+      ],
+      "skillsNextItems": [
+        "Prompt workflows",
+        "AI quality review",
+        "Simple workflow automation",
+        "Portfolio storytelling"
+      ]
+    },
+    "proof": {
+      "eyebrow": "Proof-Of-Work",
+      "title": "Build evidence, not just confidence.",
+      "body": "By the end of the plan, you should have small, visible proof that shows how you work with AI in a practical setting.",
+      "outputLabel": "Output {index}",
+      "goals": [
+        "1 small AI-assisted workflow",
+        "1 proof-of-work sample",
+        "1 portfolio story / case study"
+      ]
+    },
+    "encouragement": {
+      "eyebrow": "Keep This Human",
+      "messages": [
+        "You do not need to solve everything this week.",
+        "Small proof beats vague intention.",
+        "Your next move only needs to be clear enough to start."
+      ]
+    },
+    "cta": {
+      "eyebrow": "Continue The Rebuild",
+      "title": "Your next task is clear enough to start.",
+      "body": "Keep this practical. One finished task creates more momentum than a perfect plan."
+    }
+  },
+  "dashboard": {
+    "user": {
+      "firstName": "Maya",
+      "currentRole": "Customer Support Specialist",
+      "experienceLevel": "Mid-level",
+      "aiSkillLevel": "Using AI sometimes",
+      "primaryGoal": "Protect my current role"
+    },
+    "header": {
+      "eyebrow": "Dashboard",
+      "title": "Welcome back. Your next move is clear.",
+      "body": "Track your AI risk, rebuild progress, and next useful action."
+    },
+    "summary": {
+      "score": "AI Disruption Score",
+      "nextSkill": "Next Skill to Build",
+      "bestOpportunity": "Best Opportunity Match",
+      "progress": "30-Day Plan Progress",
+      "nextSkillValue": "AI-assisted customer workflows",
+      "bestOpportunityValue": "Customer Success AI Operator"
+    },
+    "todayTask": {
+      "eyebrow": "Today's Rebuild Task",
+      "body": "Start with a concrete list. It turns vague anxiety into work you can evaluate and improve."
+    },
+    "progress": {
+      "eyebrow": "30-Day Rebuild Progress",
+      "currentWeek": "Current week",
+      "completedTasks": "Completed tasks",
+      "nextMilestone": "Next milestone",
+      "nextMilestoneValue": "Finish Week 1 risk mapping"
+    },
+    "risk": {
+      "eyebrow": "AI Risk Summary",
+      "topTask": "Top high-risk task",
+      "strongestStrength": "Strongest human strength"
+    },
+    "actions": {
+      "eyebrow": "Recommended Next Actions",
+      "items": [
+        {
+          "title": "Continue today's rebuild task",
+          "description": "Move the current task forward while the next step is clear.",
+          "href": "/rebuild-plan"
+        },
+        {
+          "title": "Build one proof-of-work sample",
+          "description": "Turn one AI-assisted workflow into visible evidence.",
+          "href": "/rebuild-plan"
+        },
+        {
+          "title": "Review your AI risk report",
+          "description": "Revisit the tasks and strengths shaping your plan.",
+          "href": "/scanner"
+        }
+      ]
+    },
+    "opportunities": {
+      "eyebrow": "Closest Opportunity",
+      "title": "Rebuild-friendly paths to keep in view.",
+      "badge": "Rebuild-friendly opportunity",
+      "firstSkill": "First skill required",
+      "items": [
+        {
+          "title": "Customer Success AI Operator",
+          "matchReason": "Matches your support experience, communication strengths, and next AI workflow skill.",
+          "firstSkillRequired": "AI quality review for customer replies"
+        },
+        {
+          "title": "Workflow Automation Assistant",
+          "matchReason": "Builds on your knowledge of repeated tasks and where manual work slows teams down.",
+          "firstSkillRequired": "Automation basics with no-code tools"
+        }
+      ]
+    },
+    "profile": {
+      "eyebrow": "Proof-of-work Profile",
+      "percent": 35,
+      "title": "Profile completion: {percent}%",
+      "suggestedNext": "Suggested next step",
+      "nextStep": "Add one proof-of-work sample"
+    },
+    "cta": {
+      "eyebrow": "Keep Moving",
+      "title": "Small proof beats vague intention.",
+      "body": "Stay close to the task that creates evidence today."
+    }
+  }
+}

@@ -1,37 +1,22 @@
 import { Section } from "@/components/ui/Section";
-
-const steps = [
-  {
-    title: "Scan your AI job risk",
-    description: "Identify the daily tasks most exposed to automation.",
-    badge: "Scan",
-  },
-  {
-    title: "Get your 30-day rebuild plan",
-    description: "Turn the risk report into a focused weekly roadmap.",
-    badge: "Plan",
-  },
-  {
-    title: "Build proof-of-work",
-    description: "Create visible samples for the direction you want next.",
-    badge: "Proof",
-  },
-  {
-    title: "Find your next opportunity",
-    description: "Aim toward roles and projects where AI raises your value.",
-    badge: "Next",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export function HowItWorksSection() {
+  const t = useTranslations("landing.how");
+  const steps = t.raw("steps") as Array<{
+    title: string;
+    description: string;
+    badge: string;
+  }>;
+
   return (
     <Section id="how-it-works" className="bg-white">
       <div className="mx-auto max-w-3xl text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
-          How It Works
+          {t("eyebrow")}
         </p>
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
-          Turn uncertainty into a clear rebuild path.
+          {t("title")}
         </h2>
       </div>
 
